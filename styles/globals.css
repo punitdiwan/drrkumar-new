@@ -1,107 +1,1450 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
-
 * {
-  box-sizing: border-box;
+  margin : 0;  
   padding: 0;
-  margin: 0;
+  box-sizing: border-box;
+}  
+.header{
+  margin: 1rem;
+  height: 7vh;
+  font-size: small;
+  color: #B9A89C;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #21222B;
+}
+.header-main{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  width: 30%;
+}
+.header-main>span{
+  color: #F5EDE8;
+
+}
+.navigation-bar{
+  padding:0 1rem 0 1rem; 
+  margin: 1rem;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #48484b;
+}
+.navigation-bar>ul{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 60%;
+}
+.navigation-bar>ul>li{
+  position: relative;
+}
+.navigation-bar>ul>li>a{
+  text-decoration: none;
+  color: #21222B;
+  width: max-content;
+}
+.dropdown{
+  width: max-content;
+  position: absolute;
+  height: auto;
+  background-color: #fff ;
+  list-style: none;
+  display: none;
+}
+.dropdown>li{
+  position: relative ;
+  height: auto;
+  cursor: pointer;
+  font-size: small;
+  width: 100%;
+  padding: 0.2rem;
+}
+.dropdown>li>a{
+  width: 100%;
+}
+.dropdown1{
+  position: absolute;
+  display: none;
+}
+.dropdown>li:hover .dropdown1{
+  top: 10%;
+  background-color: #fff;
+  position :absolute;
+  left: 100%;
+  display: block;
+}
+.dropdown1>li{
+  width: max-content;
+  padding: 0.5rem;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.dropdown .dropdown1 li:hover{
+  color: #776558;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-a {
-  color: inherit;
+.dropdown1>li>a{
+  width: 100%;
+  color: black;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.dropdown>li>a{
+  width: 100%;
+  text-align: left;
+  /* padding-right: 3rem; */
+  text-decoration: none;
+  color: inherit;
+}
+.dropdown>li:hover{
+  color: #776558;
+}
+
+.navigation-bar>ul>li:hover .dropdown{
+  top: 100%;
+  position: absolute;
+ display: block;
+}
+
+
+.home-main{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-left: 1rem;
+  margin-right: 1rem;;
+  background-color: #F5EDE8;
+  width: 100%;
+  height: 100%;
+}
+.home-image-div{
+  width: 70%;
+
+}
+
+.home-main>.home-image-div>img{
+  width: 100%;
+  height: 115vh;
+}
+.card{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #21222B;
+  margin-top: 10%;
+  margin-left: -5%;
+  width: 30%;
+  height: 70vh;
+}
+.home-2{
+  margin-left: 1rem;
+  height: 60vh;
+  width: 100%;
+  /* background-color: #F5EDE8; */
+  display: flex;
+  flex-direction : row-reverse;
+}
+.home-2>.card-image-1>img{
+  /* margin-top: 10%; */
+  width: 100%
+}
+.card-image-1{
+  margin-top: 5%;
+  width: 40%;
+  margin-left: -2%;
+}
+
+.card1{
+  padding-top: 8rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F5EDE8;
+  color: #21222B;
+  /* margin-left: -25%; */
+  width: 70%;
+  height: auto;
+  /* border: 2px solid red; */
+}
+
+.card2{
+  position: absolute;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F5EDE8;
+  color: #21222B;
+  margin-left: 25%;
+  width: 30%;
+  height: 40vh;
+  top: 16%;
+  left: 45%;
+}
+
+.card-5{
+  /* position: absolute; */
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #F5EDE8;
+  color: #21222B;
+  margin-left: 50%;
+  margin-top: 0;
+  width: 40%;
+  height: 71vh;
+  margin-top: 3rem;
+}
+.card-6{
+  /* padding: 3rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #21222B;
+  margin-top: 0;
+  width: 18%;
+  height: 60%;
+  
+}
+.card1>p{
+  line-height: 1.5rem;;
+}
+.btn-1{
+  padding:0.6rem; 
+  border: 2px solid #21222B;
+}
+.btn-1:hover{
+ transition:  0.2s;
+ background-color: #21222B;
+ color: #fff;
+ cursor: pointer;
+}
+
+
+.btn-2{
+  border: none;
+  background-color: #21222B;
+  padding: 0.7rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-2:hover{
+  opacity: 0.9;
+}
+.btn-div{
+  display: flex;
+  gap: 1rem;
+}
+
+
+
+.home-3{
+  margin-bottom: 4rem;
+  margin-top: 8rem;
+  padding-left: 7%;
+  position: relative;
+}
+.home-3>img{
+  width: 70%;
+  height: 60vh;
+}
+.home-4{
+  height: 50vh;
+  background-image: url("../public/images/bg-02.jpg");
+  background-attachment: fixed;
+}
+.home-4{
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.home-4>h2{
+  width: 60%;
+}
+.home-5{
+  position: relative;
+  height: 100vh;
+  padding: 1rem;
+    margin-top: 4rem ;
+}
+.home-5>img{
+  position: absolute;
+  left: 10%;
+  height: 70vh;
+}
+
+/* *********** acne card *************  */
+
+
+
+
+.acne-card-1{
+  /* position: absolute; */
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #F5EDE8;
+  color: #21222B;
+  margin-top: 0;
+  width: 40%;
+  height: 69vh;
+  margin-top: 3rem;
+  margin-left: -1rem;
+
+}
+.acne-card{
+  display: flex;
+  flex-direction: row-reverse;
+  height: fit-content;
+  align-items:center;
+  justify-content: center;
+  padding: 1rem;
+    margin-top: 4rem ;
+    margin-bottom: 3rem;
+}
+.acne-card img{
+  width: 100%;
+  height: 70vh; 
+}
+.new-main-div{
+  width: 40%;
+}
+.children-card{
+  display: flex; 
+  justify-content:center;
+  align-items:center;
+  height: 100vh;
+  padding: 1rem;
+    margin-top: 4rem ;
+    width: 100%;
+
+}
+.children-card>.children-card-1{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #21222B;
+  height: 50vh;
+  width: 40%;
+}
+.children-1{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+.children-card img{ 
+  width: 100%;
+  left: 10%;
+  height: 50vh; 
+}
+.children-image{
+  height: fit-content;
+  width: fit-content;
+  overflow: hidden;
+}
+.children-image:hover img {
+  cursor: pointer;
+  transition: 0.3s;
+  overflow:hidden;
+  transform: scale(1.1);
+}
+
+/* ********** Facial **********  */
+
+
+
+.facial-main{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.facial-1{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+  align-items: flex-start;
+}
+.facial-1>a{
+  color: #B9A89C;
+  font-weight: bold;
+}
+.facial-1>a>span{
+  color: black;
+}
+.summer-main{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: fit-content;
+  margin-top: 4rem;
+}
+.summer{
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.summer>h1,p{
+  margin-bottom: 1rem;;
+}
+.footer{
+  display: flex; 
+  flex-direction: column;
+  margin: 1rem;
+  padding: 3rem;
+  background-color: #21222B;
+}
+.footer-1{
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+.footer-1 img{
+height: 10vh;
+width: 10vw;
+}
+.footer-child{
+  width: fit-content; 
+  display: flex; 
+  flex-direction: column;
+  gap: 0.5rem;
+  color: rgb(187, 184, 184);
+  /* border: 2px solid red */
+}
+.footer-2{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 1rem;
+  margin-top: 1rem;;
+  border-top: 1px solid grey;
+  color: #B9A89C;
+}
+.footer-icon{
+  font-size: larger;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  width: 20%;
+}
+
+
+
+/* ******** the Clinic *********  */
+#the-team-header{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(60deg,
+  rgba(8, 8, 8, 0.3),
+  rgba(27, 27, 27, 0.3)),url("../public/images/Cutis-Dermatology-Brisbane-Nurse-Photo-hp.jpg");
+}
+#the-visit-header{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(60deg,
+  rgba(8, 8, 8, 0.3),
+  rgba(27, 27, 27, 0.3)),url("../public/images/the-visit-main.jpg");
+}
+#children-derma{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(60deg,
+  rgba(8, 8, 8, 0.3),
+  rgba(27, 27, 27, 0.3)), url("../public/images/Childrens-dermatology-Brisbane.jpg")
+}
+.about-header{
+  margin: 1rem;
+  color: #fff;
+  display: flex; 
+  justify-content: left;
+  padding-left: 10%;
+  align-items: center;
+  font-size: xx-large;
+  height: 50vh ;
+  background-position: cover;
+  background-size: cover;
+  background-image:   linear-gradient(60deg,
+  rgba(8, 8, 8, 0.3),
+  rgba(27, 27, 27, 0.3)),url("../public/images/the-clinic-header.jpg");
+}
+.the-clinic-card-1{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 30%;
+}
+.the-clinic-card-1 h5{
+  font-size: larger;
+}
+.the-clinic-two{
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: space-evenly;
+ margin: 1rem;
+ margin-top: 3rem;;
+ padding: 3rem;
+ color: #48484b
+}
+.the-clinic-two>img{
+  zoom: inherit;
+height: 60vh;
+width: 30vw
+}
+.the-clinic-card{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-main h4{
+  font-size: xx-large;
+  color: #48484b;
+  font-weight: 200;
+ text-align: center;
+}
+.the-clinic-card-one{
+  padding: 2rem;
+  background-color: #F2F2F2;
+  color: #48484b;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20%; 
+}
+iframe{
+  margin-left: 5%;
+} 
+
+.the-team-card-main{
+  display:flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20%;
+}
+.the-team-latest{
+  display:flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 30%;
+}
+.the-team-latest>img{
+  height: 30vh;
+  width: 100%;
+}
+li{
+  list-style:none;
+}
+.the-team-card-main>img{
+  height: 36vh;
+  width: 100%;
+}
+.the-team-cards{
+  display: flex;
+  flex-direction: column;
+}
+.the-team-cards>h3{
+  font-size: xx-large;
+  font-weight: 200;
+  color: #48484b;
+  margin: 3rem;
+  text-align: center;
+}
+.the-team-card-head{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 2rem;
+  padding-left: 10rem;
+}
+.the-visit-main{
+  height: 70vh;
+  margin: 1rem;
+  display: flex;
+  align-items:center; 
+  justify-content: space-around;
+  background-color: #F2F2F2;
+}
+.the-visit-1{
+  width: 20%;
+  display: flex;
+  flex-direction:column;
+  gap:1rem;
+  color: grey;
+}
+.the-visit-1>h4{
+  color: #B9A89C;
+}
+#the-visit-two{
+  height:65vh;
+  margin-top:6rem;
+  padding-left: 8rem;
+  display:flex;
+  align-items:center;
+  justify-content: left;
+  text-align:left;
+}
+#the-visit-two>img{
+  margin-left: 10rem;
+  margin-top: 10%;
+  top:90%;
+  left: 55%;
+  /* position:absolute; */
+ height: 80vh;
+ width: 35vw;
+}
+#the-visit-last>img{
+  height: 80vh;
+  width: 40vw;
+}
+#the-visit-last{
+  align-items:center;
+}
+
+/* ******** accordion ********** */
+.wrapper{
+  padding-top: 2rem;
+  background-color: #F2F2F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: max-content;
+  color: #48484b;
+}
+.accordion{
+  height: 800px;  
+  width: 800px;
+}
+.item{
+  border-bottom: 1px solid grey;
+  margin-bottom: 5px;
+  padding: 1rem;
+  cursor: pointer;
+}
+.item:hover{
+  color: #B9A89C;
+}
+.title{
+  display: flex;
+  justify-content: space-between  ;
+  align-items: center;
+}
+.content{
+  color: #48484b;
+  max-height:0 ;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0,1,0,1);
+  margin-top: 1rem;
+}
+.content.show{
+
+  height: auto;
+  max-height: 999px;
+  transition: all 0.3s cubic-bezier(1,0,1,0);
+}
+
+
+/* *********** form **********   */
+
+.form-div{
+  padding-top:4rem;
+  padding-bottom:4rem;
+  display:flex;
+  height: 60vh auto;
+  padding-left:15%;
+  position:relative;
+}
+form{
+  position:absolute;
+  top: 15%;
+  left: 51%;
+  width: 40%;
+  background-color: #F2F2F2;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+form>label{
+  width: 95%;
+  display:flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+.form-btn{
+  margin-top: 1rem;
+  padding: 0.6rem;
+  width: 130px;
+  cursor: pointer;
+  background-color: #B6987A;
+  border:none;
+  color: #fff;
+}
+.form-btn:hover{
+  transition: 0.3s;
+  opacity: 0.9;
+}
+form>h2{
+  margin-bottom: 2rem;
+}
+form input{
+  border: none;
+  padding: 0.5rem;
+}
+.form-div>img{
+  width:auto; 
+  height: 90vh;
+}
+
+.fixedTop {
+  z-index: 5;
+  margin: 0;
+  padding: 0 2rem 0 2rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px -8px;
+}
+
+
+/* *********** acne solutions ************  */
+.acnesolutions-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.acnesolutions-1>p{
+  margin-top: 3rem;
+  text-align: center;
+  width: 50%;
+}
+.acnesolutions-1>h3{
+  color: #48484b;
+  line-height: 1.5rem;
+  text-align: center;
+  width: 40%;
+  margin: 1rem;
+}
+
+.acne-glance-main{
+  padding: 3rem;
+  margin-bottom: 4rem;
+  background-color: #F2F2F2;
+  height: auto;
+  display : flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 2rem;
+}
+.acne-glance-div{
+  display: flex;
+  gap: 1rem;
+}
+.acne-glance-1{
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+}
+.acne-glance-1>span{
+  display: flex;
+  padding: 1rem;
+  margin-right: 1rem;
+  color: #B6987A
+}
+.acne-glance-1>span>p{
+  margin-left: .5rem;;
+  color: #48484b;
+}
+
+
+
+/* ********** before & after ************  */
+
+.before-img{
+  display:flex;
+  gap:1rem;
+  width:fit-content;
+}
+.before-img:hover{
+  transform:scale(1.1);
+  transition: ease 0.3s; 
+  cursor:pointer;
+}
+figure>img{
+  width: 10vw;;
+height: 20vh;
+}
+figcaption{
+  text-align:center;
+}
+.before-after-main{
+  padding: 2rem;
+  margin: 1rem;
+  text-align:center;
+}
+.before-after-main button{
+  margin-top: 2rem;
+}
+.before-after-main>h2{
+  margin-bottom :2rem;
+}
+.before-img-main{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card-main{
+  background-color: #F2F2F2;
+}
+
+.cards-new {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+ 
+  .cards_item {
+    width: 50%;
   }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.33%;
+  }
+}
+
+.card_new{
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: #fff;
+}
+
+.card_title {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.card_content>span{
+  display: flex;
+  padding: 1rem;
+  margin-right: 1rem;
+  color: #B6987A
+}
+.card_content>span>p{
+  margin-left: 1.5rem;;
+  color: #48484b;
+}
+
+
+
+/* ************* Media Query *********** */
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+
+
+
+@media only screen and (max-width: 992px) {
+  .header{
+    display: none;
+  }
+  .navigation-bar{
+    display: none;
+  }
+  .home-main{
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+  }
+  .home-image-div{
+    height: 40%;
+    width: 100%;
+  }
+
+  .home-main>.home-image-div>img{
+    height: 100%;
+  }
+
+   .card{
+    margin: 0;
+    width: 100%;
+    height: 60%;  ; 
+   }
+   .home-2{
+    flex-direction: column;
+    margin:0;
+    width: 100%;
+    height: fit-content;
+   }
+  .card-image-1{
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+  }
+  .card-image-1>img{
+    margin: 0;
+    height: 100%;
+  }
+  .card1{
+    padding:2rem; 
+    margin: 0;
+    width: 100%;
+    display: flex;
+  }
+  .home-3 {
+    display: none;
+  }
+  .home-4{
+    display: flex; 
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+  }
+  .home-5{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: 100%;
+  }
+  .facial-main{
+    display: flex;
+    gap: 1rem; 
+    flex-direction: column;
+  }
+  .card-5{
+    height: auto;
+    margin: 0;
+    left: 0;
+
+    width: 100vw;
+  }
+  .home-5 img{
+    display : none;
+  }
+  .footer{
+    margin: 0;
+  }
+  .summer{
+    margin-top: 3rem;
+  }
+  .the-clinic-two img{
+    width: 100%;
+  }
+  .the-clinic-two{
+
+    padding-left: 9rem; 
+    padding-right: 9rem;
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  .the-clinic-card-1{
+    width:100%;
+  }
+  .the-clinic-card-one{
+    width: 50%;
+  }
+  .the-clinic-card{
+    margin-bottom: 4rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #the-visit-two img{
+    top: 100%;
+    left: 15%;
+    height: 40vh;
+    width:70%;
+  }
+  #the-visit-last img{
+    margin-bottom: 2rem;
+    height: 40vh;
+    width: 100%;
+  }
+  form{
+    left : 0;
+    margin: 0;
+    width: 80%;
+    position: relative;
+  }
+
+  .form-div img{
+    display: none;
+  }
+  .wrapper h2{
+    padding-top: 3rem;
+  }
+  .wrapper{
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .accordion{
+    width: 100%;
+    margin: 0;
+    padding: 5rem;
+  }
+  .acne-card{
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-direction:column;
+  }
+  .acnesolutions-1>h3{
+    width:80%;
+  }
+
+
+  .acne-card-1{
+    width: 100%;
+    height: auto;
+  }
+  .new-main-div{
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  .new-main-div img{
+    padding: 0;
+    margin:0;
+    width: 100%;
+  }
+
+
+
+
+  .children-card>.children-card-1{
+    width: 80%;
+  }
+  .children-image{
+    width: 80%;
+  }
+  .children-card{
+    display: flex; 
+    flex-direction : column;
+  }
+  #the-visit-two{
+    height:auto; 
+    margin: 0;
+    padding: 1rem;
+  gap: 1rem;
+  }
+  .disc li{
+    margin-left: 3rem;
+    list-style: disc;
+  }
+  #the-visit-two img{
+    width: 100%;
+    margin: 0;
+  }
+  .the-visit-main{
+    flex-direction: column;
+    height: auto;
+  }
+  .the-visit-1{
+    padding: 1rem;
+    width: 100%;
+  }
+  .responsive-nav>.bars{
+    font-size: xx-large;
+  }
+  .responsive-nav>h4{
+    width: 70%;
+  }
+  .responsive-nav{
+    background-color: #F5EDE8;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .acne-glance-1>span{
+    margin-right: 0;
+  }
+  #the-visit-two{
+    height:auto; 
+    margin: 0;
+    padding: 1rem;
+  gap: 1rem;
+  }
+  .disc li{
+    margin-left: 3rem;
+    list-style: disc;
+  }
+  #the-visit-two img{
+    width: 100%;
+    margin: 0;
+  }
+  .the-visit-main{
+    flex-direction: column;
+    height: auto;
+  }
+  .the-visit-1{
+    padding: 1rem;
+    width: 100%;
+  }
+  .cards_item{
+  width: 100%;
+  }
+
+  #the-visit-header{
+    height: 30vh;
+  }
+  #the-visit-header h1{
+    font-size: xx-large;
+  }
+  #children-derma{
+    height: 30vh;
+  }
+  #children-derma h1{
+    font-size: xx-large;
+  }
+
+
+
+
+
+  .home-4{
+    margin: 0;
+  }
+  .home-4>h2{
+    font-size: medium;
+  }
+
+  .home-5{
+    margin: 0;
+    padding: 0;
+  }
+  .card-5{
+    margin: 0;
+    left:0;
+    padding: 1rem;
+    height: auto;
+    width: 100vw;
+  }
+
+  .home-main{
+    height: fit-content;
+  }
+  .home-image-div{
+    height: 50%;
+  }
+   
+   .card{
+    gap: 1rem;
+    width: 100%;
+    height: 40%; 
+    padding: 3rem;
+    font-size: x-small;
+   }
+   .card>h5{
+    font-size: small
+   }
+   .card>h1{
+    width: 80%;
+    font-size: xx-large
+   }
+   .card>p{
+    line-height: 1.5rem;;
+    color: grey;
+    width: 90%;
+    font-size: medium;
+   }
+   .home-2{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+   }
+  .card-image-1{
+    margin: 0;
+    height: 40%; 
+  }
+  .card-image-1>img{
+    margin: 0;
+    height: 100%;
+  }
+  .card1{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    top: 75%;
+    height: 60%;
+    font-size: x-small;
+    gap: 1rem;
+  }
+  .card1>h1{
+    font-size: xx-large;
+  }
+  .card1>p{
+    color: grey;
+    font-size: medium;
+  }
+  .btn-1{
+    font-size:x-small; 
+  }
+  .btn-2{
+    font-size:x-small;
+  }
+
+
+  .title>h2{
+    font-size: medium;
+  }
+  .accordion{
+    padding: 1rem;
+    width: 100%;
+  }
+  .summer-main{
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .card-6{
+    width: 100%;
+  }
+
+.the-clinic-two{
+  padding: 1rem;
+}
+.the-clinic-two>img{
+  height: 30vh;
+}
+.the-clinic-card-1{
+  width: 100%;
+}
+.the-clinic-card-one{
+  width: 100%;
+}
+.acnesolutions-1>p{
+  width : 80%;
+}
+.acne-card-1{
+  width: 100%;
+  height: auto;
+}
+.new-main-div{
+  width: 100%;
+}
+.facial-1 a{
+  font-size: small;
+}
+.new-main-div img{
+  height: 30vh;
+}
+.children-card>.children-card-1{
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+}
+.children-image{
+  width: 100%;
+}
+.children-card{
+  height: auto;
+  padding:0; 
+  width: 100%;
+}
+#the-visit-header>p{
+font-size: medium;
+}
+.before-after-main{
+  padding: 0;
+}
+.before-img-main{
+  display: flex; 
+  flex-direction:column; 
+}
+.before-img{
+  width: 100%;
+}
+.before-img>figure>img{
+  width: 100%;
+}
+form{
+  width: 100%;
+  margin: 0;
+}
+.form-div{
+  margin-top: 2rem;
+  padding: 0;
+}
+.footer-1{
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+.footer-1 img{
+  width: 50%;
+}
+.responsive-nav>.bars{
+  font-size: xx-large;
+}
+.responsive-nav>h4{
+  font-size: large;
+  font-weight: bolder;
+  width: 70%;
+}
+.responsive-nav{
+  background-color: #F5EDE8;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10vh;
+}
+
+}
+
+/* *********************************************** */
+
+
+
+
+
+
+.navigation {
+  width: 95%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #fff;
+}
+.navigation>ul>li{
+  position:relative;
+  padding: 0.5rem;
+}
+.navigation>ul>li>a, span{
+  text-decoration: none;
+  color:black;
+}
+.dropdown-child li a{
+  text-decoration : none;
+   color: black;
+}
+.dropdown-child{
+  font-size: small;
+  padding: 0.3rem;
+  top: 13%;
+  left: 60%;
+  width: 60%;
+  transition: all 0.5s;
+  position: absolute;
+  background-color: #fff;
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  color: #fff;
+  border: 1px solid grey;  
+}
+.dropdown-new {
+  font-size: small;
+  padding: 0.3rem;
+  top: 70%;
+  left: 16%;
+  width: 60%;
+  transition: all 0.5s;
+  position: absolute;
+  background-color: #fff;
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  color: #fff;
+  border: 1px solid grey;
+}
+.dropdown-new>li>a{
+text-decoration: none;
+color: black;
+}
+
+
+
+@media only screen and (min-width: 992px){
+
+
+
+.responsive-nav>.bars{
+  font-size: xx-large;
+}
+.responsive-nav>h4{
+  width: 70%;
+}
+.responsive-nav{
+  background-color: #F5EDE8;
+  display: none;
+  justify-content: space-evenly;
+  height: 10vh;
+}
+.footer-1>h1{
+  color: #fff;
+}
 }
