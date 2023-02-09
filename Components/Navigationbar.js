@@ -6,6 +6,7 @@ const Navigationbar = () => {
   const [show, setShow] = useState(false);
     const [show1, setShow1] = useState(false);
     const [show2, setShow2] = useState(false);
+    const [show3, setShow3] = useState(false);
 
   return (
     <>
@@ -17,13 +18,13 @@ const Navigationbar = () => {
             </Link>
           </li>
           <li>
-            <span  onClick={() => setShow1(!show1)}  className="nav_link1">
+            <span  onClick={() => setShow1(!show1)}  >
             Medical Dermatology <FaCaretDown />
             </span>
             {show1 ? (
               <ul className="dropdown-new">
                 <li>
-                  <Link href="/obstetrics" className="nav_link1">
+                  <Link href="/Acnesolutionclinic" >
                     Acne Solutions Clinic
                   </Link>
                 </li>
@@ -32,7 +33,7 @@ const Navigationbar = () => {
                   Acne Treatments <FaCaretDown />
                   </span>
                   {show2 ? <ul className="dropdown-child">
-                    <li><Link href=''>Acne Cyst</Link></li>
+                  <li><Link href=''>Acne Cyst</Link></li>
                     <li><Link href=''>Acne in Children</Link></li>
                     <li><Link href=''>Acne in pregnancy</Link></li>
                   </ul> : show2 }
@@ -44,7 +45,7 @@ const Navigationbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/fibroids" className="nav_link1">
+                  <Link href="/Childrenderma" className="nav_link1">
                   Children's Dermatology
                   </Link>
                 </li>
@@ -200,9 +201,15 @@ const Navigationbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/contact" className="nav_link1">
-              About 
-            </Link>
+            <span href="/contact"  onClick={() => setShow3(!show3)}>
+              About  <FaCaretDown />
+            </span>
+            {show3 ? <ul className="dropdown-child">
+                    <li><Link href='/theclinic'>The Clinic </Link></li>
+                    <li><Link href='/theteam'>The Team</Link></li>
+                    <li><Link href='/thevisit'>The Visit</Link></li>
+                    <li><Link href='/thevisit'>About</Link></li>
+                  </ul> : show3 }
           </li>
           <li>
             <Link href="/contact" className="nav_link1">

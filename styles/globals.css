@@ -329,7 +329,7 @@
   align-items:center;
   height: 100vh;
   padding: 1rem;
-    margin-top: 4rem ;
+    /* margin-top: 2rem ; */
     width: 100%;
 
 }
@@ -740,8 +740,8 @@ form input{
   color: #48484b;
   line-height: 1.5rem;
   text-align: center;
-  width: 40%;
-  margin: 1rem;
+  width: 30%;
+  height: auto;
 }
 
 .acne-glance-main{
@@ -1076,6 +1076,7 @@ figcaption{
 
 
   .children-card>.children-card-1{
+    gap: 2rem;
     width: 80%;
   }
   .children-image{
@@ -1111,15 +1112,29 @@ figcaption{
     font-size: xx-large;
   }
   .responsive-nav>h4{
+    float:right;
     width: 70%;
   }
-  .responsive-nav{
-    background-color: #F5EDE8;
-    display: flex;
-    flex-direction: row-reverse;
+  .footer-2{
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .footer-2>p{
+    width: 70%;
+  }
+  .footer-icon{
     align-items: center;
-    justify-content: space-evenly;
-    height: 10vh;
+    justify-content: center;
+    text-align: center;
+    width:70%;
+  }
+  .footer-1>h1{
+    color:#FFF;
+  }
+  .responsive-nav{
+    padding: 2rem;
+    background-color: #F5EDE8;
+    height: auto;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1297,6 +1312,8 @@ figcaption{
   height: 30vh;
 }
 .children-card>.children-card-1{
+  margin-top: 1rem;
+  gap: 2rem;
   padding: 1rem;
   width: 100%;
   height: auto;
@@ -1352,12 +1369,25 @@ form{
   width: 70%;
 }
 .responsive-nav{
+  padding: 2rem;
   background-color: #F5EDE8;
-  display: flex;
-  flex-direction: row-reverse;
+  height: auto;
+}
+.footer-2{
+  padding: 0;
+  padding-top: 1rem;
+}
+.footer-2>p{
+  width: 70%;
+}
+.footer-icon{
   align-items: center;
-  justify-content: space-evenly;
-  height: 10vh;
+  justify-content: center;
+  text-align: center;
+  width:70%;
+}
+.footer-1>h1{
+  color:#FFF;
 }
 
 }
@@ -1370,8 +1400,11 @@ form{
 
 
 .navigation {
+  height: auto;
+  left: 10%;
+  top: 5%;
   width: 95%;
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
   color: white;
@@ -1428,6 +1461,7 @@ color: black;
 
 
 
+
 @media only screen and (min-width: 992px){
 
 
@@ -1439,10 +1473,12 @@ color: black;
   width: 70%;
 }
 .responsive-nav{
-  background-color: #F5EDE8;
+  transition: all 0.2s;
+  color: white;
+  padding: 2rem;
+  background-color: #e97195;
+  width: 100%;
   display: none;
-  justify-content: space-evenly;
-  height: 10vh;
 }
 .footer-1>h1{
   color: #fff;

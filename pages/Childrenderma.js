@@ -32,14 +32,14 @@ Our consultants are trained in children’s dermatology. They will provide exper
               <a>
                 <span>-</span> Acne treatments</a>
               <a>
-                <span>-</span>Birthmark treatments
+                <span>-</span> Birthmark treatments
               </a>
               <a>
                 <span>-</span> Hair Loss Alopecia Areata</a>
                           <a>
-                <span>-</span>Pityriasis Rosea Management</a>
+                <span>-</span> Pityriasis Rosea Management</a>
               <a>
-                <span>-</span>Perioral Dermatitis</a>
+                <span>-</span> Perioral Dermatitis</a>
             </div>
                   
               
