@@ -1443,7 +1443,7 @@ form{
   padding: 0.8rem;
   top: 70%;
   left: 16%;
-  width: 60%;
+  width: 70%;
   transition: all 0.5s;
   position: absolute;
   background-color: #fff;
@@ -1453,6 +1453,10 @@ form{
   gap: 0.2rem;
   color: #fff;
   border: 1px solid grey;
+}
+.dropdown-new>li{
+  font-weight: bold;
+  padding: 0.1rem;
 }
 .dropdown-new>li>a{
 text-decoration: none;
