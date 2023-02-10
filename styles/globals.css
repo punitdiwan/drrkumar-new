@@ -285,7 +285,7 @@
 }
 .home-4{
   height: 50vh;
-  background-image: url("../public/images/bg-02.jpg");
+  background-image: url("/images/bg-02.jpg");
   background-attachment: fixed;
   font-size: x-large;
   display: flex;
@@ -491,7 +491,7 @@ width: 10vw;
   background-repeat: no-repeat;
   background-image:   linear-gradient(60deg,
   rgba(8, 8, 8, 0.3),
-  rgba(27, 27, 27, 0.3)),url("../public/images/Cutis-Dermatology-Brisbane-Nurse-Photo-hp.jpg");
+  rgba(27, 27, 27, 0.3)),url("/images/Cutis-Dermatology-Brisbane-Nurse-Photo-hp.jpg");
 }
 #the-visit-header{
   background-position: center;
@@ -499,7 +499,7 @@ width: 10vw;
   background-repeat: no-repeat;
   background-image:   linear-gradient(60deg,
   rgba(8, 8, 8, 0.3),
-  rgba(27, 27, 27, 0.3)),url("../public/images/the-visit-main.jpg");
+  rgba(27, 27, 27, 0.3)),url("/images/the-visit-main.jpg");
 }
 #children-derma{
   background-position: center;
@@ -507,7 +507,7 @@ width: 10vw;
   background-repeat: no-repeat;
   background-image:linear-gradient(60deg,
   rgba(8, 8, 8, 0.3),
-  rgba(27, 27, 27, 0.3)), url("../public/images/Childrens-dermatology-Brisbane.jpg")
+  rgba(27, 27, 27, 0.3)), url("/images/Childrens-dermatology-Brisbane.jpg")
 }
 .about-header{
   margin: 1rem;
@@ -522,7 +522,7 @@ width: 10vw;
   background-size: cover;
   background-image:   linear-gradient(60deg,
   rgba(8, 8, 8, 0.3),
-  rgba(27, 27, 27, 0.3)),url("../public/images/the-clinic-header.jpg");
+  rgba(27, 27, 27, 0.3)),url("/images/the-clinic-header.jpg");
 }
 #before-after{
   margin: 1rem;
@@ -537,7 +537,7 @@ width: 10vw;
   background-size: cover;
   background-image:linear-gradient(60deg,
   rgba(8, 8, 8, 0.3),
-  rgba(27, 27, 27, 0.3)), url('../public/images/Skin-rejuvenation-treatment-Cutis-Dermatology.jpg')
+  rgba(27, 27, 27, 0.3)), url('/images/Skin-rejuvenation-treatment-Cutis-Dermatology.jpg')
 }
 .the-clinic-card-1{
   display: flex;
