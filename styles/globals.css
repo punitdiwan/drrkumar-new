@@ -287,8 +287,6 @@
   height: 50vh;
   background-image: url("../public/images/bg-02.jpg");
   background-attachment: fixed;
-}
-.home-4{
   font-size: x-large;
   display: flex;
   flex-direction: column;
@@ -298,6 +296,7 @@
   color: #fff;
   text-align: center;
 }
+
 .home-4>h2{
   width: 60%;
 }
