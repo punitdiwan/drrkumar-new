@@ -12,16 +12,12 @@ const Home1 = () => {
         <h5>MEDICAL – SURGICAL – COSMETIC</h5>
         <h1>Healthy, beautiful skin makes the best first impression</h1>
         <p>
-          Cutis Dermatology in Brisbane, Australia is a specialist practice with
-          a mission to provide a full range of dermatologic services including
-          medical, cosmetic & surgical dermatology. Our team cover all aspects
-          of skin treatments; from skin & hair disorders to the very latest in
-          laser technology.
+        Dr kumar clinic Dr kumar skin and laser clinic is an advanced medical facility located in the heart of City jamshedpur . Golmuri clinic providing a wide range of dermatological & aesthetic solutions. 
         </p>
 
         <div className="btn-div">
           <button className="btn-1">LEARN MORE</button>
-          <button className="btn-2">BOOK APPOINTMENT</button>
+          {/* <button className="btn-2">BOOK APPOINTMENT</button> */}
         </div>
       </div>
     

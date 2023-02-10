@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Home3 = () => {
   return (
@@ -17,7 +18,7 @@ const Home3 = () => {
           </p> */}
 
           <div className="btn-div">
-            <button className="btn-2">VIEW GALLERY</button>
+            <Link  href='/Beforeafter'className="btn-2">VIEW RESULTS</Link>
             {/* <button className="btn-2">BOOK APPOINTMENT</button> */}
           </div>
         </div>

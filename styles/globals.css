@@ -357,9 +357,12 @@
   width: fit-content;
   overflow: hidden;
 }
+.children-image img{
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
 .children-image:hover img {
   cursor: pointer;
-  transition: 0.3s;
   overflow:hidden;
   transform: scale(1.1);
 }
@@ -484,6 +487,21 @@ width: 10vw;
   background-image:   linear-gradient(60deg,
   rgba(8, 8, 8, 0.3),
   rgba(27, 27, 27, 0.3)),url("../public/images/the-clinic-header.jpg");
+}
+#before-after{
+  margin: 1rem;
+  color: #fff;
+  display: flex; 
+  justify-content: left;
+  padding-left: 10%;
+  align-items: center;
+  font-size: xx-large;
+  height: 50vh ;
+  background-position: center;
+  background-size: cover;
+  background-image:linear-gradient(60deg,
+  rgba(8, 8, 8, 0.3),
+  rgba(27, 27, 27, 0.3)), url('../public/images/Skin-rejuvenation-treatment-Cutis-Dermatology.jpg')
 }
 .the-clinic-card-1{
   display: flex;
@@ -698,7 +716,7 @@ form>label{
   color: #fff;
 }
 .form-btn:hover{
-  transition: 0.3s;
+  transition: .3s ease-in-out;
   opacity: 0.9;
 }
 form>h2{
@@ -732,6 +750,9 @@ form input{
   justify-content: center;
 }
 .acnesolutions-1>p{
+  font-size: larger;
+  color: grey;
+  line-height: 1.5rem;
   margin-top: 3rem;
   text-align: center;
   width: 50%;
@@ -783,9 +804,13 @@ form input{
   gap:1rem;
   width:fit-content;
 }
-.before-img:hover{
+.before-img img{
+  transform:scale(1);
+  transition: .3s ease-in-out;
+}
+.before-img:hover img{
   transform:scale(1.1);
-  transition: ease 0.3s; 
+  /* transition: .3s ease-in-out;  */
   cursor:pointer;
 }
 figure>img{
@@ -813,12 +838,19 @@ figcaption{
   gap: 1rem;
 }
 
+.card_image{
+  height: fit-content;
+} 
+.card_image img{
+  height: 70%;
+  width: 100%;
+}
+
 .card-main{
   background-color: #F2F2F2;
 }
 
 .cards-new {
-  padding: 3rem;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -845,8 +877,9 @@ figcaption{
 }
 
 .card_new{
+  /* height: 70%; */
   background-color: white;
-  border-radius: 0.25rem;
+  /* border-radius: 0.25rem; */
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
@@ -884,6 +917,96 @@ figcaption{
   margin-left: 1.5rem;;
   color: #48484b;
 }
+
+
+/* ********** Before after main ************* */
+
+
+
+
+
+.card_image{
+  position:relative;
+  height: fit-content;
+
+}
+.card_image:hover::after{
+  color: #fff;
+  cursor: pointer;
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+}
+.card_image::after {
+  color: #fff;
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}
+.card_image h1{
+  color: white;
+  text-align:center;
+  top: 50%;
+  left:50%;
+  transform :translate(-50%, -50%);  
+  position: absolute;
+}
+.card_image img{
+  height: 100%;
+  width: 100%;
+}
+
+.card-main{
+  background-color: #F2F2F2;
+}
+
+.cards-new-1 {
+  height:fit-content;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item-1 {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+ 
+  .cards_item-1 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item-1 {
+    width: 33.33%;
+  }
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card_new-1{
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 
 
 

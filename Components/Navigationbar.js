@@ -203,7 +203,7 @@ const Navigationbar = () => {
             )}
           </li>
           <li>
-            <Link href="/gallery" className="nav_link1">
+            <Link href="/Beforeafter" className="nav_link1">
               Before & Afters
             </Link>
           </li>

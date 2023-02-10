@@ -5,13 +5,12 @@ const Home2 = () => {
   return (
     <>
       <div className="home-2">
-        <div className='card-image-1'>
-        <img src="./images/Cutis-Dermatology-Brisbane-Nurse-Photo-hp.jpg" />
-          
-          </div>
+        <div className="card-image-1">
+          <img src="./images/group.jpg" />
+        </div>
         <div className="card1">
           {/* <h5>MEDICAL – SURGICAL – COSMETIC</h5> */}
-          <h1>Cutis: Latin for Skin, Dermatology</h1>
+          <h1>DR. KUMAR SKIN & LASER CLINIC</h1>
           <p>
             Led by notable and accomplished dermatologists, our ethos is to
             provide truly personalised services tailored to each individual
@@ -26,7 +25,6 @@ const Home2 = () => {
             {/* <button className="btn-2">BOOK APPOINTMENT</button> */}
           </div>
         </div>
-
       </div>
     </>
   );
