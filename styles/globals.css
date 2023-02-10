@@ -35,6 +35,9 @@
 #new-header li{
   font-size: small;
 }
+.navigation-bar img{
+  width: 20%;
+}
 .navigation-bar{
   padding:0 1rem 0 1rem; 
   margin: 1rem;
@@ -1318,6 +1321,11 @@ figcaption{
     background-color: #F5EDE8;
     height: auto;
   }
+  .responsive-nav img{
+    float: right;
+    width: 40%;
+    /* border: 2px solid red; */
+  }
 }
 @media only screen and (max-width: 600px) {
   .acne-glance-1>span:first-child{
@@ -1545,6 +1553,10 @@ form{
 .responsive-nav>.bars{
   font-size: xx-large;
 }
+.responsive-nav img{
+  width: 50%;
+  /* border: 2px solid red; */
+}
 .responsive-nav>h4{
   font-size: large;
   font-weight: bolder;
@@ -1655,6 +1667,7 @@ color: black;
 .responsive-nav>.bars{
   font-size: xx-large;
 }
+
 .responsive-nav>h4{
   width: 70%;
 }

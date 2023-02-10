@@ -40,8 +40,8 @@ const Header = () => {
         </div>
       </header>
       <nav className="navigation-bar" id="mainHeader" ref={stickyHeader}>
-        {/* <img src="" alt="logo" /> */}
-        <h3>DR. KUMAR SKIN & LASER CLINIC</h3>
+        <img src="./images/Dr_kumar_Logo.png" alt="logo" />
+        {/* <h3>DR. KUMAR SKIN & LASER CLINIC</h3> */}
         <ul>
           <li>
             <Link href="/" className="buttons">
@@ -422,7 +422,8 @@ const Header = () => {
         </ul>
       </nav>
       <div ref={menuRef} className="responsive-nav">
-        <h4>DR. KUMAR SKIN & LASER CLINIC </h4>
+        {/* <h4>DR. KUMAR SKIN & LASER CLINIC </h4> */}
+        <img src="./images/Dr_kumar_Logo.png"/>
         <span onClick={() => setShow(!show)} className="bars">
           <FaBars />
         </span>
