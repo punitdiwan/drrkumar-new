@@ -7,6 +7,7 @@ import Home4 from "../Components/Home4";
 import Home5 from "../Components/Home5";
 import Summer from "../Components/Summer";
 import Footer from "../Components/Footer";
+import Carousels from "../Components/Carousels";
 
 const index = () => {
   return (
@@ -18,6 +19,8 @@ const index = () => {
       <Home4 />
       <Home5 />
       <Summer />
+      <Carousels />
+
       <Footer />
     </>
   );

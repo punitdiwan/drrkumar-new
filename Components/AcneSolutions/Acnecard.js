@@ -1,52 +1,49 @@
-import React from 'react'
+import React from "react";
+import { FaRegWindowMinimize } from "react-icons/fa";
 
 const Acnecard = () => {
   return (
     <>
-    <div className="acne-card">
- 
-        
+      <div className="acne-card">
         <div className="acne-card-1">
-          <h1>Important Facts on the Acne Solutions Clinic</h1>
+          <h3>Important Facts on the Acne Solutions Clinic</h3>
           <div className="facial-main">
             <div className="facial-1">
-              <a>
-                <span>-</span> Specialist acne solutions by expert dermatology nurses
-              </a>
-              <a>
-                <span>-</span> You will be given advise in regards to product use
-
-              </a>
-              <a>
-                <span>-</span>A complimentary and customised chemical peel will be conducted at the end of this assessment followed by an ongoing treatment plan
-
-              </a>
-              <a>
-                <span>-</span> The type of chemical peel you will receive will be dependent on your acne type and skin type
-
-                          </a>
-                          <a>
-                <span>-</span>Our Specialists use either an alpha hydroxy acid peel, or a beta hydroxy acid peel. Concentrations are customised according to your skin type
-
-              </a>
-              <a>
-                <span>-</span> $120 gets you assessed, advised, and a chemical peel for your acne
-
-              </a>
+              <p className='light-size'>
+                <span><FaRegWindowMinimize/></span> Specialist acne solutions by expert dermatology
+                nurses
+              </p>
+              <p className='light-size'>
+                <span><FaRegWindowMinimize/></span> You will be given advise in regards to product
+                use
+              </p>
+              <p className='light-size'>
+                <span><FaRegWindowMinimize/></span> A complimentary and customised chemical peel will
+                be conducted at the end of this assessment followed by an
+                ongoing treatment plan
+              </p>
+              <p className='light-size'>
+                <span><FaRegWindowMinimize/></span> The type of chemical peel you will receive will
+                be dependent on your acne type and skin type
+              </p>
+              <p className='light-size'>
+                <span><FaRegWindowMinimize/></span> Our Specialists use either an alpha hydroxy acid
+                peel, or a beta hydroxy acid peel. Concentrations are customised
+                according to your skin type
+              </p>
+              <p className='light-size'>
+                <span><FaRegWindowMinimize/></span> $120 gets you assessed, advised, and a chemical
+                peel for your acne
+              </p>
             </div>
-                  
-              
           </div>
         </div>
-        <div className='new-main-div'>
-        <img src="./images/acne-card.jpg" />
+        <div className="new-main-div">
+          <img src="./images/acne-card.jpg" />
         </div>
-        
       </div>
-      
-      
     </>
-  )
-}
+  );
+};
 
 export default Acnecard;

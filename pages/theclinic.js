@@ -24,12 +24,6 @@ const Aboutus = () => {
               with your medical, skin cancer, & cosmetic skin treatments,
               providing the best results possible for your skin.
             </p>
-            <p>
-              You will find yourself in a very comfortable & welcoming
-              environment where our experienced staff are equipped to assist
-              with your medical, skin cancer, & cosmetic skin treatments,
-              providing the best results possible for your skin.
-            </p>
           </div>
         </div>
         <h4>We have three locations</h4>

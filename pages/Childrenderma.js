@@ -15,6 +15,7 @@ import {
 } from "react-icons/fa";
 import Accordion from "../Components/Accordion";
 import Form from "../Components/Form";
+import { FaRegWindowMinimize } from "react-icons/fa";
 
 const Childrenderma = () => {
   return (
@@ -34,30 +35,31 @@ const Childrenderma = () => {
         </div>
         <div className="children-card">
           <div className="children-card-1">
-            <h1>
+            <h3>
               DR. KUMAR SKIN & LASER CLINIC offers a variety of active Childrens
               Dermatology treatment options.
-            </h1>
+            </h3>
             <div className="children-main">
+                <h5>Paediatric Dermatology Treatments:</h5><br/>
               <div className="children-1">
-                <a>
-                  <span>-</span> Eczema Management
-                </a>
-                <a>
-                  <span>-</span> Acne treatments
-                </a>
-                <a>
-                  <span>-</span> Birthmark treatments
-                </a>
-                <a>
-                  <span>-</span> Hair Loss Alopecia Areata
-                </a>
-                <a>
-                  <span>-</span> Pityriasis Rosea Management
-                </a>
-                <a>
-                  <span>-</span> Perioral Dermatitis
-                </a>
+                <p className='light-size'>
+                  <span><FaRegWindowMinimize/></span> Eczema Management
+                </p>
+                <p className='light-size'>
+                  <span><FaRegWindowMinimize/></span> Acne treatments
+                </p>
+                <p className='light-size'>
+                  <span><FaRegWindowMinimize/></span> Birthmark treatments
+                </p>
+                <p className='light-size'>
+                  <span><FaRegWindowMinimize/></span> Hair Loss Alopecia Areata
+                </p>
+                <p className='light-size'>
+                  <span><FaRegWindowMinimize/></span> Pityriasis Rosea Management
+                </p>
+                <p className='light-size'>
+                  <span><FaRegWindowMinimize/></span> Perioral Dermatitis
+                </p>
               </div>
             </div>
           </div>

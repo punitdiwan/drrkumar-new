@@ -14,16 +14,16 @@ const thevisit = () => {
         </div>
 
         <div className="the-clinic-two" id="the-visit-two">
-          <img src="./images/The-visit-header.jpg" />
+          <img src="./images/new-image.jpeg" />
           <div className="the-clinic-card-1">
             <h5>
-              Cutis Dermatology has two locations, Taringa & Indooroopilly. Take
+            DR. KUMAR SKIN & LASER CLINIC has three locations. Take
               note of which clinic you will be visiting.
             </h5>
             <p>
               <b>PLEASE BRING THE FOLLOWING FOR THE FIRST APPOINTMENT:</b>
             </p>
-            <ul className='disc'>
+            <ul className="disc">
               <li>Referral letter (if you have one)</li>
               <li>Medicare or DVA Card</li>
               <li>Completed new patient registration form</li>
@@ -71,16 +71,8 @@ const thevisit = () => {
         <div className="the-clinic-two" id="the-visit-last">
           <div className="the-clinic-card-1">
             <h5>
-              Cutis Dermatology is conveniently located in the Western Suburbs
-              of Brisbane, 10 minutes from the CBD & 20 minutes from the
-              airport.
+            DR. KUMAR SKIN & LASER CLINIC is conveniently located at 3rd floor , akasdeep plaza , golmuri.
             </h5>
-            <p>
-              You will find yourself in a very comfortable & welcoming
-              environment where our experienced staff are equipped to assist
-              with your medical, skin cancer, & cosmetic skin treatments,
-              providing the best results possible for your skin.
-            </p>
             <p>
               You will find yourself in a very comfortable & welcoming
               environment where our experienced staff are equipped to assist
@@ -91,59 +83,73 @@ const thevisit = () => {
           <img src="./images/the-visit-last.jpg" />
         </div>
         <Accordion />
-        <Form/>
+        <Form />
         <div className="the-team-cards">
           <h3>Latest News</h3>
           <ul class="cards-new">
-    <li class="cards_item">
-      <div class="card_new">
-        <div class="card_image"><img src="./images/the-team-card.webp" style={{height: '300px', width: "300px"}} /></div>
-        <div class="card_content">
-          <h2 class="card_title">Dr Eshini Perera</h2>
-          <h5>Dermatologist </h5>
-          <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card_new">
-        <div class="card_image"><img src="./images/the-team-card.webp" style={{height: '300px', width: "300px"}} /></div>
-        <div class="card_content">
-          <h2 class="card_title">Dr Eshini Perera</h2>
-          <h5>Dermatologist </h5>
-          <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card_new">
-        <div class="card_image"><img src="./images/the-team-card.webp" style={{height: '300px', width: "300px"}} /></div>
-        <div class="card_content">
-          <h2 class="card_title">Dr Eshini Perera</h2>
-          <h5>Dermatologist </h5>
-          <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-        </div>
-      </div>
-    </li>
-    </ul>
+            <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./images/the-team-card.webp"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Dr Eshini Perera</h2>
+                  <h5>Dermatologist </h5>
+                  <ul>
+                    <li>- Rosacea</li>
+                    <li>- Skin cancer management </li>
+                    <li>- Acne</li>
+                    <li>- Skin rejuvenation</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./images/the-team-card.webp"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Dr Eshini Perera</h2>
+                  <h5>Dermatologist </h5>
+                  <ul>
+                    <li>- Rosacea</li>
+                    <li>- Skin cancer management </li>
+                    <li>- Acne</li>
+                    <li>- Skin rejuvenation</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./images/the-team-card.webp"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Dr Eshini Perera</h2>
+                  <h5>Dermatologist </h5>
+                  <ul>
+                    <li>- Rosacea</li>
+                    <li>- Skin cancer management </li>
+                    <li>- Acne</li>
+                    <li>- Skin rejuvenation</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
         <Footer />
-        
       </section>
     </>
   );

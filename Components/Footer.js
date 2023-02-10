@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookSquare, FaYoutube,FaInstagram } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -9,9 +10,9 @@ const Footer = () => {
           {/* <img src="./images/bg-02.jpg" /> */}
           <h1>DR. KUMAR SKIN & LASER CLINIC</h1>
           <div className="footer-child">
-            <a>The Clinic</a>
-            <a>The Team</a>
-            <a>The Visit</a>
+            <Link href='/theclinic'>The Clinic</Link>
+            <Link href='/theteam'>The Team</Link>
+            <Link href='/thevisit'>The Visit</Link>
           </div>
           <div className="footer-child">
             <a>Our Fees</a>
@@ -27,9 +28,9 @@ const Footer = () => {
         <div className="footer-2">
           <p>© 2023 DR. KUMAR SKIN & LASER CLINIC.</p>
           <div className="footer-icon">
-            <FaFacebookSquare />
+            <a href='https://www.facebook.com/drkumarskinandlaserclinic/' target="_blank"><FaFacebookSquare /></a>
             <FaYoutube />
-            <FaInstagram/>
+            <a href="http://instagram.com/drrajurims" target="_blank"><FaInstagram/></a>
           </div>
         </div>
       </section>

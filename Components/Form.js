@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <>
       <div className="form-div">
-        <img src="./images/cutis-form.jpg" alt="" />
+        <img src="./images/dr0.webp" alt="" />
         <form autoComplete="off">
           <h2>Ask us more about this treatment</h2>
           <label>

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, useLayoutEffect } from "react";
 import Link from "next/link";
 import { FaCaretRight, FaBars, FaCaretDown } from "react-icons/fa";
-import Navigationbar from './Navigationbar';
+import Navigationbar from "./Navigationbar";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -41,7 +41,7 @@ const Header = () => {
       </header>
       <nav className="navigation-bar" id="mainHeader" ref={stickyHeader}>
         {/* <img src="" alt="logo" /> */}
-        <h1>DR. KUMAR SKIN & LASER CLINIC</h1>
+        <h3>DR. KUMAR SKIN & LASER CLINIC</h3>
         <ul>
           <li>
             <Link href="/" className="buttons">
@@ -124,40 +124,30 @@ const Header = () => {
                 </Link>
                 <ul className="dropdown1">
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Anti-Sweat Injections
                     </Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">Antiperspirants</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">CBT</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">ETS Surgery</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">Facial Sweating</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">MiraDry</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">Tablets</Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Surgical Producers
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Surgical Producers</Link>
                   </li>
                 </ul>
               </li>
@@ -176,23 +166,19 @@ const Header = () => {
                 </Link>
                 <ul className="dropdown1">
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">Alopecia Areata</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Growth Factor Injections
                     </Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Laser Hair Restoration
                     </Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Male Pattern Hair Loss
                     </Link>
@@ -206,32 +192,21 @@ const Header = () => {
                 </Link>
                 <ul className="dropdown1">
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">Alopecia Areata</Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Female Hair Loss
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Female Hair Loss</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Frontal Fibrosing Alopecia
                     </Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Lichen Planopilaris
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Lichen Planopilaris</Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Telogen Effluvium
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Telogen Effluvium</Link>
                   </li>
                 </ul>
               </li>
@@ -242,35 +217,25 @@ const Header = () => {
                 </Link>
                 <ul className="dropdown1">
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Creams for Psoriasis
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Creams for Psoriasis</Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Guttate Psoriasis
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Guttate Psoriasis</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">Psoriasis Diet</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Tablets for Psoriasis
                     </Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Vitamin A for Psoriasis
                     </Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Vitamin D for Psoriasis
                     </Link>
@@ -284,25 +249,17 @@ const Header = () => {
                 </Link>
                 <ul className="dropdown1">
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Rhinophyma Rosacea
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Rhinophyma Rosacea</Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Rosacea Medications
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Rosacea Medications</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Rosacea Skin Rejuvanation
                     </Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Rosacea Tiggers & Skincare
                     </Link>
@@ -316,39 +273,28 @@ const Header = () => {
                 </Link>
                 <ul className="dropdown1">
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Bascal Cell Carcinoma Treatment
                     </Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Melonoma Skin Check
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Melonoma Skin Check</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">Mole Removal</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">Skincare Check</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Photodynamic Therapy - PDT
                     </Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Seborrheic Keratosis
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Seborrheic Keratosis</Link>
                   </li>
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Squamous Cell Cancer Treatments
                     </Link>
@@ -362,22 +308,15 @@ const Header = () => {
                 </Link>
                 <ul className="dropdown1">
                   <li>
-                    
                     <Link href="/Acnesolutionclinic">
                       Actinic Cheilitis Treatments
                     </Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Efudix Treatments
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Efudix Treatments</Link>
                   </li>
                   <li>
-                    
-                    <Link href="/Acnesolutionclinic">
-                      Fraxel for sun spots
-                    </Link>
+                    <Link href="/Acnesolutionclinic">Fraxel for sun spots</Link>
                   </li>
                 </ul>
               </li>
@@ -393,87 +332,66 @@ const Header = () => {
             <Link href="">Cosmetic Dermatology</Link>
             <ul className="dropdown">
               <li>
-                
                 <Link href="">Acne Scar Treatment</Link>
               </li>
               <li>
-                
                 <Link href="">Melasma Treatments </Link>
               </li>
               <li>
-                
                 <Link href="">Pigmentation</Link>
               </li>
               <li>
-                
                 <Link href="">Skin Tightening</Link>
               </li>
               <li>
-                
                 <Link href=""> Eye Rejuvanation </Link>
               </li>
               <li>
-                
                 <Link href="">Neck, Chest and Dec Rejuvanation</Link>
               </li>
               <li>
-                
                 <Link href="">Anti-Aging Treatments </Link>
               </li>
               <li>
-                
                 <Link href="">Anti-Wrinkles Treatments</Link>
               </li>
               <li>
-                
                 <Link href="">Chemicals Peels</Link>
               </li>
               <li>
-                
                 <Link href="">Dermal Filters</Link>
               </li>
               <li>
-                
                 <Link href="">Enlarged Pores</Link>
               </li>
               <li>
-                
                 <Link href="">Ehnic Skin Rewjuvanation</Link>
               </li>
               <li>
-                
                 <Link href="">Fat Reduction</Link>
               </li>
               <li>
-                
                 <Link href="">Lasers</Link>
               </li>
               <li>
-                
                 <Link href="">Lip Wrinkles & Rejuvanation</Link>
               </li>
               <li>
-                
                 <Link href="">Male Rejuvanation</Link>
               </li>
               <li>
-                
                 <Link href="">Scar Removal</Link>
               </li>
               <li>
-                
                 <Link href="">Skin Maintenance</Link>
               </li>
               <li>
-                
                 <Link href="">Skin Care & Anti-Aging by age </Link>
               </li>
               <li>
-                
                 <Link href="">Tattoo Removal</Link>
               </li>
               <li>
-                
                 <Link href="">Stretch Marks treatments</Link>
               </li>
             </ul>
@@ -483,7 +401,7 @@ const Header = () => {
           </li>
           <li>
             <Link href="">About</Link>
-            <ul className="dropdown">
+            <ul className="dropdown " id ="new-header">
               <li>
                 <Link href="/theclinic">The Clinic</Link>
               </li>
@@ -508,9 +426,7 @@ const Header = () => {
         <span onClick={() => setShow(!show)} className="bars">
           <FaBars />
         </span>
-        {show ? <Navigationbar/>: (
-          show
-        )}
+        {show ? <Navigationbar /> : show}
       </div>
     </>
   );

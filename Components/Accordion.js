@@ -19,7 +19,7 @@ const Accordion = () => {
           {data.map((item, i) => (
             <div className="item" onClick={() => toggle(i)}>
               <div className="title">
-                <h2>{item.title}</h2>
+                <h5>{item.title}</h5>
                 <span>
                   {selected === i ? <FaMinusCircle /> : <FaPlusCircle />}
                 </span>
@@ -36,11 +36,11 @@ const Accordion = () => {
 };
 
 const data = [
-  {
-    title: " What are the fees?",
-    answer:
-      "Cutis Dermatology is a private billing practice. Every effort is made to ensure that our professional fees are reasonable. They reflect our expertise, time, commitment & equipment levels required to provide you with the best standards of specialist care.",
-  },
+  // {
+  //   title: " What are the fees?",
+  //   answer:
+  //     "Cutis Dermatology is a private billing practice. Every effort is made to ensure that our professional fees are reasonable. They reflect our expertise, time, commitment & equipment levels required to provide you with the best standards of specialist care.",
+  // },
   {
     title: "Who is the ideal patient for the Acne Solutions Clinic",
     answer:
@@ -61,6 +61,11 @@ const data = [
       "What active acne treatments are available thru Acne Solutions Clnic ",
     answer:
       "This is a Specialist Nurse led clinic for patients who suffer from mild to moderate acne, who often will benefit from advice on correct skin care and products. As part of our initial assessment we provide each patient with a complimentary chemical peel.",
+  },
+  {
+    title: "What can be done in Acne Scarring ",
+    answer:
+      "Treating acne is very important, as effective and early treatment can reduce, prevent or even reverse acne scars.If you have acne and mild to moderate acne scars, our specialist laser nurses’ maybe the ideal first step in organising a scar revision plan.",
   },
   {
     title: "What can be done in Acne Scarring ",

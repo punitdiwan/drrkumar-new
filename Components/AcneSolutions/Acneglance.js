@@ -14,7 +14,7 @@ const Acneglance = () => {
                 <span><FaReply/> <p> Back to work: Immediately </p> </span>
             </div>
             <div className='acne-glance-1'>
-                <span><FaHeart/> <p> Best outcomes: 2-4 sessions </p> </span>
+                <span><FaHeart/> <p > Best outcomes: 2-4 sessions </p></span> 
                 <span><FaBolt/> <p> Procedure time: 30-45 minutes </p> </span>
                 <span><FaUserAlt/> <p> Duration of results: Variable </p> </span>
                 <span><FaDollarSign/> <p> Back to work: Immediately </p> </span>
@@ -27,3 +27,4 @@ const Acneglance = () => {
 };
 
 export default Acneglance;
+    

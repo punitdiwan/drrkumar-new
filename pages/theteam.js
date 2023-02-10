@@ -14,16 +14,8 @@ const Theteam = () => {
           <img src="./images/Our-Team-1.jpg" />
           <div className="the-clinic-card-1">
             <h5>
-              Cutis Dermatology is conveniently located in the Western Suburbs
-              of Brisbane, 10 minutes from the CBD & 20 minutes from the
-              airport.
+            DR. KUMAR SKIN & LASER CLINIC is conveniently located at 3rd floor , akasdeep plaza , golmuri.
             </h5>
-            <p>
-              You will find yourself in a very comfortable & welcoming
-              environment where our experienced staff are equipped to assist
-              with your medical, skin cancer, & cosmetic skin treatments,
-              providing the best results possible for your skin.
-            </p>
             <p>
               You will find yourself in a very comfortable & welcoming
               environment where our experienced staff are equipped to assist
@@ -162,127 +154,6 @@ const Theteam = () => {
       </div>
     </li>
     </ul>
-          {/* <div className="the-team-card-head">
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-
-            <div className="the-team-card-main">
-              <img src="./images/the-team-clinicians.webp" />
-              <h3>Lisa</h3>
-              <h5>Dermal Therapist</h5>
-              <ul>
-                <li>- Rosacea</li>
-                <li>- Skin cancer management </li>
-                <li>- Acne</li>
-                <li>- Skin rejuvenation</li>
-              </ul>
-            </div>
-          </div> */}
         </div>
         <div className="the-team-cards">
           <h3>Meet Our Management Team</h3>
