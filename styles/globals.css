@@ -781,7 +781,7 @@ form input{
 }
 
 .fixedTop {
-  z-index: 5;
+  z-index: 9999;
   margin: 0;
   padding: 0 2rem 0 2rem;
   width: 100%;

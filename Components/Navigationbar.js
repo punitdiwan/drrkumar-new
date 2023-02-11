@@ -228,7 +228,7 @@ const Navigationbar = () => {
             )}
           </li>
           <li>
-            <Link href="/" className="nav_link1">
+            <Link href="/contact" className="nav_link1">
               Contact Us
             </Link>
           </li>
