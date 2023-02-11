@@ -227,11 +227,11 @@ const Navigationbar = () => {
               show3
             )}
           </li>
-          <li>
+          {/* <li>
             <Link href="/contact" className="nav_link1">
               Contact Us
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>

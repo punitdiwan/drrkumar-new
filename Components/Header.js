@@ -413,9 +413,9 @@ const Header = () => {
               </li>
             </ul>
           </li>
-          <li>
+          {/* <li>
             <Link href="">Contact us</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
       <div ref={menuRef} className="responsive-nav">
