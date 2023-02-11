@@ -11,7 +11,7 @@ const Home2 = () => {
         <div className="card1">
           {/* <h5>MEDICAL – SURGICAL – COSMETIC</h5> */}
           <p className="light-bold">DR. KUMAR SKIN & LASER CLINIC</p>
-          <p className='light-size'>
+          <p className="light-size">
             Led by notable and accomplished dermatologists, our ethos is to
             provide truly personalised services tailored to each individual
             patient, for natural, subtle, and stunning results. Our approach of

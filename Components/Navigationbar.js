@@ -222,9 +222,6 @@ const Navigationbar = () => {
                 <li>
                   <Link href="/thevisit">The Visit</Link>
                 </li>
-                <li>
-                  <Link href="/thevisit">About</Link>
-                </li>
               </ul>
             ) : (
               show3

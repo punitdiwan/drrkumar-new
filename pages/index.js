@@ -8,6 +8,8 @@ import Home5 from "../Components/Home5";
 import Summer from "../Components/Summer";
 import Footer from "../Components/Footer";
 import Carousels from "../Components/Carousels";
+import Instacard from "../Components/Instacard";
+
 
 const index = () => {
   return (
@@ -20,7 +22,7 @@ const index = () => {
       <Home5 />
       <Summer />
       <Carousels />
-
+      <Instacard/>
       <Footer />
     </>
   );

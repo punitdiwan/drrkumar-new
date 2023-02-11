@@ -36,8 +36,7 @@ const thevisit = () => {
             <ul>
               <li>
                 It is important not to wear a make-up if your condition involves
-                your fimport Accordion from '../Components/Accordion'; ace or
-                you need a skin check.
+                your ace or you need a skin check.
               </li>
               <li>
                 Copies of any relevant blood tests, biopsy or test results that

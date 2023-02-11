@@ -411,9 +411,6 @@ const Header = () => {
               <li>
                 <Link href="/thevisit">The Visit</Link>
               </li>
-              <li>
-                <Link href="">Fees</Link>
-              </li>
             </ul>
           </li>
           <li>
