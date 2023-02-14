@@ -161,11 +161,12 @@
 
 .light-bold{
   font-size: x-large;
-  font-weight: medium;
+  font-weight: bold;
 }
 .light-size{
   line-height: 1.5rem;
   color: grey;
+  font-weight: bold;
    font-size: small;
 }
 
@@ -449,7 +450,8 @@
 }
 .footer-1 img{
 height: 10vh;
-width: 10vw;
+/* border: 2px solid red; */
+width: 15vw;
 }
 .footer-child{
   width: fit-content; 
@@ -1706,7 +1708,7 @@ form{
 
 }
 .footer-1 img{
-  width: 50%;
+  width: 100%;
 }
 .responsive-nav>.bars{
   font-size: xx-large;
