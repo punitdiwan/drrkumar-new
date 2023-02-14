@@ -1554,10 +1554,20 @@ figcaption{
   }
 
   .home-main{
+    width: 100%;
+    margin: 0;
     height: fit-content;
   }
   .home-image-div{
+    margin: 0;
     height: 50%;
+    width: 100%; 
+    text-align:center;
+    /* border: 2px solid red ; */
+  }
+  .home-image-div img{
+    width: 100vw;
+    /* border: 2px solid green ; */
   }
    
    .card{
