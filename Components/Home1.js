@@ -14,10 +14,7 @@ const Home1 = () => {
             Healthy, beautiful skin makes the best first impression
           </h6>
           <p className="light-size">
-            Dr kumar clinic Dr kumar skin and laser clinic is an advanced
-            medical facility located in the heart of City jamshedpur . Golmuri
-            clinic providing a wide range of dermatological & aesthetic
-            solutions.
+          Dr. Kumar skin & Laser clinics an advanced medical facility located in the heart of city Jamshedpur. This clinic providing a wide range of dermatological & aesthetic solutions.
           </p>
 
           <div className="btn-div">
