@@ -443,6 +443,29 @@
   padding: 3rem;
   background-color: #21222B;
 }
+.footer-1 a{
+  font-size: small;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+.footer-1 a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  top: 15px;
+  background-color: grey;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.footer-1 a:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .footer-1{
   width: 100%;
   justify-content: space-around;
