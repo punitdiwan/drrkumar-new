@@ -27,7 +27,7 @@ const Acnesolutionclinic = () => {
         </div>
         <Acnecard />
         <Acneglance />
-        <Accordion />
+        {/* <Accordion /> */}
         <Form />
 
         <Footer />
