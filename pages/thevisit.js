@@ -79,18 +79,19 @@ const thevisit = () => {
               providing the best results possible for your skin.
             </p>
           </div>
-          <img src="./images/the-visit-last.jpg" />
+          {/* <img src="./images/the-visit-last.jpg" /> */}
+          <img src="./img1/v2.jpeg" />
         </div>
-        <Accordion />
+        {/* <Accordion /> */}
         <Form />
-        <div className="the-team-cards">
+        {/* <div className="the-team-cards">
           <h3>Latest News</h3>
           <ul class="cards-new">
             <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
-                  <img
-                    src="./images/the-team-card.webp"
+                <img
+                    src="./img1/d3.jpeg"
                     style={{ height: "300px", width: "300px" }}
                   />
                 </div>
@@ -109,8 +110,9 @@ const thevisit = () => {
             <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
+                  
                   <img
-                    src="./images/the-team-card.webp"
+                    src="./img1/d1.jpeg"
                     style={{ height: "300px", width: "300px" }}
                   />
                 </div>
@@ -129,8 +131,8 @@ const thevisit = () => {
             <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
-                  <img
-                    src="./images/the-team-card.webp"
+                <img
+                    src="./img1/d2.jpeg"
                     style={{ height: "300px", width: "300px" }}
                   />
                 </div>
@@ -147,7 +149,7 @@ const thevisit = () => {
               </div>
             </li>
           </ul>
-        </div>
+        </div> */}
         <Footer />
       </section>
     </>

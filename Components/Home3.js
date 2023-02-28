@@ -6,7 +6,7 @@ const Home3 = () => {
     <>
       <div className="home-3">
         <img src="./images/cutis-dermatology-brisbane-before-after-1.jpg" />
-        <div className="card2">
+        <div className="card2" >
           <h5>TRANSFORMING SKIN SINCE 1994</h5>
           <h1>Our results speak for themselves</h1>
           {/* <p>

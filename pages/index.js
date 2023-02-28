@@ -20,7 +20,7 @@ const index = () => {
       <Home3 />
       <Home4 />
       <Home5 />
-      <Summer />
+      {/* <Summer /> */}
       <Carousels />
       <Instacard/>
       <Footer />
