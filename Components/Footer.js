@@ -1,5 +1,10 @@
 import React from "react";
-import { FaFacebookSquare, FaYoutube, FaInstagram } from "react-icons/fa";
+import {
+  FaFacebookSquare,
+  FaYoutube,
+  FaInstagram,
+  FaHeart,
+} from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {
@@ -24,23 +29,50 @@ const Footer = () => {
             <a>Disclaimer</a>
             <a>Privacy Policy</a>
           </div>
-        </div>
-        <div className="footer-2">
-          <p>© 2023 DR. KUMAR SKIN & LASER CLINIC.</p>
-          <div className="footer-icon">
-            <a
-              href="https://www.facebook.com/drkumarskinandlaserclinic/"
-              target="_blank"
-            >
-              <FaFacebookSquare />
-            </a>
-            <FaYoutube />
-            <a href="http://instagram.com/drrajurims" target="_blank">
-              <FaInstagram />
-            </a>
+          <div className="footer-child  footer1-child">
+            <span>
+              {" "}
+              <a
+                href="https://www.facebook.com/drkumarskinandlaserclinic/"
+                target="_blank"
+              >
+                <FaFacebookSquare />
+              </a>
+            </span>
+            <span>
+              {" "}
+              <FaYoutube />
+            </span>
+            <span>
+              {" "}
+              <a href="http://instagram.com/drrajurims" target="_blank">
+                <FaInstagram />
+              </a>
+            </span>
           </div>
         </div>
+        <div className="footer-2">
+        <div className="policy" id="footer-policy">
+        <div className="policy-row">
+          <div className="policy-col">
+            {/* <p>Copyright © Dr. Saket Agrawal</p> */}
+            <p>© 2023 DR. KUMAR SKIN & LASER CLINIC.</p>
+          </div>
+          <div className="policy-col">
+            <p>
+              Design with{" "}
+              <span>
+                <FaHeart />
+              </span>{" "}
+              by&nbsp;
+              <a href="https://maitretech.com/">maitretech.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+        </div>
       </section>
+      
     </>
   );
 };

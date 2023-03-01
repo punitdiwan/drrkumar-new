@@ -76,7 +76,7 @@ const Childrenderma = () => {
             specialize in paediatric dermatology.
           </p>
         </div>
-        <Accordion />
+        {/* <Accordion /> */}
         <Form />
 
         <Footer />
