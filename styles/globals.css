@@ -429,7 +429,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  padding: 3rem;
+  padding: 3rem 2rem;
   background-color: #21222b;
 }
 .footer-1 a {
@@ -1356,6 +1356,7 @@ figcaption {
   }
   .footer {
     margin: 0;
+    /* padding: 3rem 2rem; */
   }
   .summer {
     margin-top: 3rem;
@@ -1956,6 +1957,6 @@ span {
 
 @media (max-width: 350px) {
   .footer {
-    padding: 3rem 1.5rem;
+    padding: 3rem 1rem;
   }
 }
