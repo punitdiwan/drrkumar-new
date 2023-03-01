@@ -429,7 +429,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  padding: 3rem 2rem;
+  padding: 3rem 3rem;
   background-color: #21222b;
 }
 .footer-1 a {
@@ -1955,8 +1955,8 @@ span {
   } */
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .footer {
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
   }
 }
