@@ -6,7 +6,7 @@ const Home2 = () => {
     <>
       <div className="home-2">
         <div className="card-image-1">
-          <img src="./images/group.jpg" />
+          <img src="./img1/home-achieve.jpeg" />
         </div>
         <div className="card1">
           {/* <h5>MEDICAL – SURGICAL – COSMETIC</h5> */}

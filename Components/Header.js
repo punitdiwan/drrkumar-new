@@ -40,7 +40,7 @@ const Header = () => {
         </div>
       </header>
       <nav className="navigation-bar" id="mainHeader" ref={stickyHeader}>
-        <img src="./img1/logo1.png" alt="logo" />
+        <img src="./img1/logo.png" alt="logo" />
         {/* <h3>DR. KUMAR SKIN & LASER CLINIC</h3> */}
         <ul>
           <li>

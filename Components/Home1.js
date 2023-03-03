@@ -7,7 +7,7 @@ const Home1 = () => {
       <div className="home-main">
         <div className="home-image-div">
           {/* <img src="./images/cutis-dermatologist-brisbane-scaled.jpeg" /> */}
-          <img src="./img1/h1.jpeg" />
+          <img src="./img1/home.jpeg" />
         </div>
         <div className="card">
           <h5>MEDICAL – SURGICAL – COSMETIC</h5>

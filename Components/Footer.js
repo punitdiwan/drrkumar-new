@@ -12,7 +12,7 @@ const Footer = () => {
     <>
       <section className="footer">
         <div className="footer-1">
-          <img src="./img1/logo2.png" />
+          <img src="./img1/logo.png" />
           {/* <h1>DR. KUMAR SKIN & LASER CLINIC</h1> */}
           <div className="footer-child">
             <Link href="/theclinic">The Clinic</Link>
