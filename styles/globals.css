@@ -262,6 +262,9 @@
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-2:hover {
@@ -1011,6 +1014,21 @@ figcaption {
 .card_content > span > p {
   margin-left: 1.5rem;
   color: #48484b;
+}
+
+.card_items{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  margin-left: 5rem;
+}
+
+@media screen and (max-width:400px){
+  .card_items{
+    margin: 0;
+  }
 }
 
 /* ********** Before after main ************* */
