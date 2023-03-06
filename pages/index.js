@@ -22,7 +22,7 @@ const index = () => {
       <Home5 />
       {/* <Summer /> */}
       <Carousels />
-      <Instacard/>
+      {/* <Instacard/> */}
       <Footer />
     </>
   );
