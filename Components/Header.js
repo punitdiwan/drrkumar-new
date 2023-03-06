@@ -420,7 +420,7 @@ const Header = () => {
       </nav>
       <div ref={menuRef} className="responsive-nav">
         {/* <h4>DR. KUMAR SKIN & LASER CLINIC </h4> */}
-        <img src="./images/Dr.RKumar_logo.png"/>
+        <img src="./img1/logo.png"/>
         <span onClick={() => setShow(!show)} className="bars">
           <FaBars />
         </span>

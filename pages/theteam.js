@@ -54,7 +54,7 @@ const Theteam = () => {
                 </div>
               </div>
             </li>
-            <li class="cards_item">
+            {/* <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
                   <img
@@ -73,8 +73,8 @@ const Theteam = () => {
                   </ul>
                 </div>
               </div>
-            </li>
-            <li class="cards_item">
+            </li> */}
+            {/* <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
                   <img
@@ -93,8 +93,8 @@ const Theteam = () => {
                   </ul>
                 </div>
               </div>
-            </li>
-            <li class="cards_item">
+            </li> */}
+            {/* <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
                   <img
@@ -113,19 +113,19 @@ const Theteam = () => {
                   </ul>
                 </div>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="the-team-cards">
           <h3>Meet Our Skin Therapist</h3>
           <ul class="cards-new">
-            <li class="cards_item">
+            {/* <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
-                  {/* <img
+                  <img
                     src="./images/the-team-card.webp"
                     style={{ height: "300px", width: "300px" }}
-                  /> */}
+                  />
                   <img
                     src="./img1/t1.jpeg"
                     style={{ height: "300px", width: "300px" }}
@@ -142,8 +142,8 @@ const Theteam = () => {
                   </ul>
                 </div>
               </div>
-            </li>
-            <li class="cards_item">
+            </li> */}
+            {/* <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
                   <img
@@ -162,7 +162,7 @@ const Theteam = () => {
                   </ul>
                 </div>
               </div>
-            </li>
+            </li> */}
             <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
@@ -263,7 +263,7 @@ const Theteam = () => {
                 </div>
               </div>
             </li>
-            <li class="cards_item">
+            {/* <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
                   <img
@@ -283,7 +283,7 @@ const Theteam = () => {
                 </div>
               </div>
             </li>
-            
+             */}
           </ul>
         </div>
         <div className="the-team-cards">
@@ -293,12 +293,12 @@ const Theteam = () => {
               <div class="card_new">
                 <div class="card_image">
                   <img
-                    src="./img1/m1.jpeg"
+                   src="./img1/rajesh.jpeg"
                     style={{ height: "300px", width: "300px" }}
                   />
                 </div>
                 <div class="card_content">
-                  <h2 class="card_title">Dr Eshini Perera</h2>
+                  <h2 class="card_title">Dr Rajesh Kumar</h2>
                   <h5>Dermatologist </h5>
                   <ul>
                     <li>- Rosacea</li>
@@ -313,13 +313,13 @@ const Theteam = () => {
               <div class="card_new">
                 <div class="card_image">
                   <img
-                    src="./img1/m2.jpeg"
+                    src="./img1/sumit.jpeg"
                     style={{ height: "300px", width: "300px" }}
                   />
                 </div>
                 <div class="card_content">
-                  <h2 class="card_title">Dr Eshini Perera</h2>
-                  <h5>Dermatologist </h5>
+                  <h2 class="card_title">Dr Sumit</h2>
+                  <h5>Pathologist </h5>
                   <ul>
                     <li>- Rosacea</li>
                     <li>- Skin cancer management </li>
@@ -333,12 +333,12 @@ const Theteam = () => {
               <div class="card_new">
                 <div class="card_image">
                   <img
-                    src="./img1/m3.jpeg"
+                    src="./img1/sangam.jpeg"
                     style={{ height: "300px", width: "300px" }}
                   />
                 </div>
                 <div class="card_content">
-                  <h2 class="card_title">Dr Eshini Perera</h2>
+                  <h2 class="card_title">Dr Sangam</h2>
                   <h5>Dermatologist </h5>
                   <ul>
                     <li>- Rosacea</li>
