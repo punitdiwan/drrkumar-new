@@ -31,7 +31,8 @@ const Aboutus = () => {
         <div className="the-clinic-card">
           <div className="the-clinic-card-one">
             <h3>DR. KUMAR SKIN & LASER CLINIC</h3>
-            <p>302, 3rd floor Akasdeep plaza , Golmuri jamshedpur </p>
+            <p>302, 3rd floor Akasdeep plaza , Golmuri jamshedpur <br/>Mo.-9262791996</p>
+            {/* <p>Mo.-9262791996</p> */}
             <a href="tel:9262791996" className="btn-2">
               CALL NOW
             </a>
@@ -41,8 +42,9 @@ const Aboutus = () => {
             <p>
               Dc mandevillie court, chakarwarty compound, 1st floor, above
               meditek diagnostic , next to coctail bar , contractor's area ,
-              Bistupur
+              Bistupur <br/>Mo.-9262791997
             </p>
+            {/* <p>Mo.-9262791997</p> */}
             <a href="tel:9262791997" className="btn-2">
               CALL NOW
             </a>
@@ -51,8 +53,9 @@ const Aboutus = () => {
             <h3>DR. KUMAR SKIN & LASER CLINIC</h3>
             <p>
               Ground floor, next to sound of music , beside jio outlet , payal
-              talkies road , new purulia road mango
+              talkies road , new purulia road mango <br/>Mo.-9262791998
             </p>
+            {/* <p>Mo.-9262791998</p> */}
             <a href="tel:9262791998" className="btn-2">
               CALL NOW
             </a>
