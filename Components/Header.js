@@ -335,7 +335,7 @@ const Header = () => {
                 <Link href="">Acne Scar Treatment</Link>
               </li>
               <li>
-                <Link href="">Melasma Treatments </Link>
+                <Link href="/Melasma">Melasma Treatments </Link>
               </li>
               <li>
                 <Link href="">Pigmentation</Link>
@@ -414,7 +414,7 @@ const Header = () => {
             </ul>
           </li>
           <li>
-            <Link href="">Contact us</Link>
+            <Link href="/Contactus">Contact us</Link>
           </li>
         </ul>
       </nav>

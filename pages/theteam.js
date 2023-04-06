@@ -19,7 +19,7 @@ const Theteam = () => {
               , akasdeep plaza , golmuri.
             </h5>
             <p>
-              You will find yourself in a very comfortable & welcoming
+              You will find  yourself in a very comfortable & welcoming
               environment where our experienced staff are equipped to assist
               with your medical, skin cancer, & cosmetic skin treatments,
               providing the best results possible for your skin.
@@ -39,13 +39,20 @@ const Theteam = () => {
                   /> */}
                   <img
                     src="./img1/v2.jpeg"
-                    style={{ height: "300px", width: "300px" }}
+                    style={{ height: "400px", width: "400px" }}
                   />
                 </div>
                 <div class="card_content">
-                  <h2 class="card_title">Dr R. Kumar</h2>
-                  <h5>Dermatologist </h5>
+                  <h2 class="card_title">Dr Raju Kumar</h2>
+                  <h5>Conultant - Dermatologist ,Trichologist</h5>
+                  <h5>&Laser expert</h5>
                   <ul>
+                  <li> - Ex-Consultant Kaya Skin Clinic </li>
+                  <li>,Mumbai</li>
+                  
+                  <li> - Ex-Consultant Tinplate Hospital,Jamshedpur</li>
+                  <li> - Presently Chief Consultant</li>
+                  <li>-Dr.kumar skin& Laser Clinic ,Jamshedpur</li>
                     <li>- Rosacea</li>
                     <li>- Skin cancer management </li>
                     <li>- Acne</li>
@@ -173,13 +180,13 @@ const Theteam = () => {
                 </div>
                 <div class="card_content">
                   <h2 class="card_title">Sheetal </h2>
-                  <h5>Dermatologist </h5>
+                  {/* <h5>Dermatologist </h5>
                   <ul>
                     <li>- Rosacea</li>
                     <li>- Skin cancer management </li>
                     <li>- Acne</li>
                     <li>- Skin rejuvenation</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </li>
@@ -193,13 +200,13 @@ const Theteam = () => {
                 </div>
                 <div class="card_content">
                   <h2 class="card_title">Priyanka </h2>
-                  <h5>Dermatologist </h5>
+                  {/* <h5>Dermatologist </h5>
                   <ul>
                     <li>- Rosacea</li>
                     <li>- Skin cancer management </li>
                     <li>- Acne</li>
                     <li>- Skin rejuvenation</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </li>
@@ -213,13 +220,13 @@ const Theteam = () => {
                 </div>
                 <div class="card_content">
                   <h2 class="card_title">Varsha</h2>
-                  <h5>Dermatologist </h5>
+                  {/* <h5>Dermatologist </h5>
                   <ul>
                     <li>- Rosacea</li>
                     <li>- Skin cancer management </li>
                     <li>- Acne</li>
                     <li>- Skin rejuvenation</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </li>
@@ -233,13 +240,13 @@ const Theteam = () => {
                 </div>
                 <div class="card_content">
                   <h2 class="card_title">Bhumi </h2>
-                  <h5>Dermatologist </h5>
+                  {/* <h5>Dermatologist </h5>
                   <ul>
                     <li>- Rosacea</li>
                     <li>- Skin cancer management </li>
                     <li>- Acne</li>
                     <li>- Skin rejuvenation</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </li>
@@ -252,14 +259,14 @@ const Theteam = () => {
                   />
                 </div>
                 <div class="card_content">
-                  <h2 class="card_title">Sheetal</h2>
-                  <h5>Dermatologist </h5>
+                  <h2 class="card_title">Kajal</h2>
+                  {/* <h5>Dermatologist </h5>
                   <ul>
                     <li>- Rosacea</li>
                     <li>- Skin cancer management </li>
                     <li>- Acne</li>
                     <li>- Skin rejuvenation</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </li>
@@ -298,7 +305,7 @@ const Theteam = () => {
                   />
                 </div>
                 <div class="card_content">
-                  <h2 class="card_title">Dr Rajesh Kumar</h2>
+                  <h2 class="card_title">Rajesh Kumar</h2>
                   <h5>Dermatologist </h5>
                   <ul>
                     <li>- Rosacea</li>
@@ -318,7 +325,7 @@ const Theteam = () => {
                   />
                 </div>
                 <div class="card_content">
-                  <h2 class="card_title">Dr Sangam</h2>
+                  <h2 class="card_title">Dr Sumit Kumar</h2>
                   <h5>Pathologist </h5>
                   <ul>
                     <li>- Rosacea</li>
