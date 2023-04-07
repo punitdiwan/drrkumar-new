@@ -5,37 +5,37 @@ import Footer from "../Components/Footer";
 const AntiWrinkle = () => {
   return (
     <>
-<Header />
+      <Header />
 
-<div style={{textAlign: "center"}}>
+      <div style={{ textAlign: "center" }}>
         <h1>Anti-Wrinkle</h1>
       </div>
-          <div className='main'>
-      <ul class="cards-new-1">
-        <li class="cards_item-1">
-          <div class="card_new-1">
-            <div class="card_image">
-              <img src="./images/wrink.jpg" /> 
+      <div className='main'>
+        <ul class="cards-new-1">
+          <li class="cards_item-1">
+            <div class="card_new-1">
+              <div class="card_image">
+                <img src="./images/wrink.jpg" />
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="cards_item-1">
-          <div class="card_new-1">
-            <div class="card_image">
-              <img src="./images/Wr1.jpg" /> 
+          </li>
+          <li class="cards_item-1">
+            <div class="card_new-1">
+              <div class="card_image">
+                <img src="./images/before3.jpg" />
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="cards_item-1">
-          <div class="card_new-1">
-            <div class="card_image">
-              <img src="./images/Wrink2.jpeg" /> 
+          </li>
+          {/* <li class="cards_item-1">
+            <div class="card_new-1">
+              <div class="card_image">
+                <img src="./images/Wrink2.jpeg" />
+              </div>
             </div>
-          </div>
-        </li>
+          </li> */}
         </ul>
-        </div>
-<Footer />
+      </div>
+      <Footer />
     </>
   )
 }

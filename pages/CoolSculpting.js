@@ -5,37 +5,37 @@ import Footer from "../Components/Footer";
 const CoolSculpting = () => {
   return (
     <>
-<Header />
+      <Header />
 
-<div style={{textAlign: "center"}}>
+      <div style={{ textAlign: "center" }}>
         <h1>Cool Sculpting</h1>
       </div>
-          <div className='main'>
-      <ul class="cards-new-1">
-        <li class="cards_item-1">
-          <div class="card_new-1">
-            <div class="card_image">
-              <img src="./images/before1.jpg" /> 
+      <div className='main'>
+        <ul class="cards-new-1">
+          <li class="cards_item-1">
+            <div class="card_new-1">
+              <div class="card_image">
+                <img src="./images/before5.jpg" />
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="cards_item-1">
-          <div class="card_new-1">
-            <div class="card_image">
-              <img src="./images/before1.jpg" /> 
+          </li>
+          <li class="cards_item-1">
+            <div class="card_new-1">
+              <div class="card_image">
+                <img src="./images/cool.jpg" />
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="cards_item-1">
-          <div class="card_new-1">
-            <div class="card_image">
-              <img src="./images/before1.jpg" /> 
+          </li>
+          <li class="cards_item-1">
+            <div class="card_new-1">
+              <div class="card_image">
+                <img src="./images/cool1.webp" />
+              </div>
             </div>
-          </div>
-        </li>
+          </li>
         </ul>
-        </div>
-<Footer />
+      </div>
+      <Footer />
     </>
   )
 }

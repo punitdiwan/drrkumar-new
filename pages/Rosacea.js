@@ -5,37 +5,37 @@ import Footer from "../Components/Footer";
 const Rosacea = () => {
   return (
     <>
-<Header />
+      <Header />
 
-<div style={{textAlign: "center"}}>
+      <div style={{ textAlign: "center" }}>
         <h1>Rosacea</h1>
       </div>
-          <div className='main'>
-      <ul class="cards-new-1">
-        <li class="cards_item-1">
-          <div class="card_new-1">
-            <div class="card_image">
-              <img src="./images/before1.jpg" /> 
+      <div className='main'>
+        <ul class="cards-new-1">
+          <li class="cards_item-1">
+            <div class="card_new-1">
+              <div class="card_image">
+                <img src="./images/before14.jpg" />
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="cards_item-1">
-          <div class="card_new-1">
-            <div class="card_image">
-              <img src="./images/before1.jpg" /> 
+          </li>
+          <li class="cards_item-1">
+            <div class="card_new-1">
+              <div class="card_image">
+                <img src="./images/ros.jpeg" />
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="cards_item-1">
-          <div class="card_new-1">
-            <div class="card_image">
-              <img src="./images/before1.jpg" /> 
+          </li>
+          <li class="cards_item-1">
+            <div class="card_new-1">
+              <div class="card_image">
+                <img src="./images/ros.png" />
+              </div>
             </div>
-          </div>
-        </li>
+          </li>
         </ul>
-        </div>
-<Footer />
+      </div>
+      <Footer />
     </>
   )
 }
