@@ -344,12 +344,7 @@ const Theteam = () => {
                 <div class="card_content">
                   <h2 class="card_title">Dr Sumit Kumar</h2>
                   <h5>Pathologist </h5>
-                  <ul>
-                    <li>- Rosacea</li>
-                    <li>- Skin cancer management </li>
-                    <li>- Acne</li>
-                    <li>- Skin rejuvenation</li>
-                  </ul>
+
                 </div>
               </div>
             </li>

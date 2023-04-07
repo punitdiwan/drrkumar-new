@@ -13,6 +13,50 @@ const Footer = () => {
 
   return (
     <>
+
+      <div className="form-div">
+        <img src="./images/grlsimg.jpg" alt="" />
+        <form autoComplete="off">
+          <h2>Book Appointment</h2>
+          Patient Name :
+          <label>
+
+            <input type="text" name="name" id="name" />
+          </label>
+          <br />
+          Appointment Date :
+          <label>
+            <input type="text" name="name" id="name" />
+          </label>
+          <br />
+          Patient Mobile :
+          <label>
+
+            <input type="text" name="number" id="number" />
+          </label>
+          <br />
+          Patient Age :
+          <label>
+
+            <input type="text" name="number" id="number" />
+          </label>
+          <br />
+          Patient Gender :
+          <label>
+
+            <input type="text" name="message" id="message" />
+
+            {/* <input type="radio" name="gender" value="male">  */}
+            {/* <input type="radio" name="gender" value="female">  */}
+
+
+
+          </label>
+          <button className="form-btn">Submit</button>
+        </form>
+      </div>
+
+
       <section className="footer" >
         <div className="footer-1">
           <img src="./img1/logo.png" />
@@ -32,33 +76,30 @@ const Footer = () => {
             <a>Disclaimer</a>
             <a>Privacy Policy</a>
 
-          </div>
-          <div className="link">
-            <Link style={{ color: "white", border: "2px solid", padding: '.5rem', textDecoration: "none", backgroundColor: "black", height: "2.5rem", margin: ".5rem 0" }} href="/Form">FOR BOOK APPOINTMENT</Link>
-            <div className="footer-child  footer1-child">
-              <span >
-                {" "}
-                <a
-                  href="https://www.facebook.com/drkumarskinandlaserclinic/"
-                  target="_blank"
-                >
-                  <FaFacebookSquare />
-                </a>
-              </span>
-              <span>
-                {" "}
-                <FaYoutube />
-              </span>
-              <span>
-                {" "}
-                <a href="http://instagram.com/drrajurims" target="_blank">
-                  <FaInstagram />
-                </a>
-              </span>
-            </div>
-          </div>
 
-
+          </div>
+          <div className="footer-child  footer1-child">
+            <span >
+              {" "}
+              <a
+                href="https://www.facebook.com/drkumarskinandlaserclinic/"
+                target="_blank"
+              >
+                <FaFacebookSquare />
+              </a>
+            </span>
+            <span>
+              {" "}
+              <FaYoutube />
+            </span>
+            <span>
+              {" "}
+              <a href="http://instagram.com/drrajurims" target="_blank">
+                <FaInstagram />
+              </a>
+            </span>
+          </div>
+          {/* <Link style={{ color: "white", border: "2px solid", padding: '.5rem', textDecoration: "none", backgroundColor: "black", height: "2.5rem", margin: ".5rem 0" }} href="/Form">FOR BOOK APPOINTMENT</Link> */}
         </div>
 
 
