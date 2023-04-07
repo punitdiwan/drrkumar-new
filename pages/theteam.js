@@ -18,6 +18,7 @@ const Theteam = () => {
               DR. KUMAR SKIN & LASER CLINIC is conveniently located at 3rd floor
               , akasdeep plaza , golmuri.
             </h5>
+            <br />
             <p>
               You will find  yourself in a very comfortable & welcoming
               environment where our experienced staff are equipped to assist
@@ -47,12 +48,12 @@ const Theteam = () => {
                   <h5>Conultant - Dermatologist ,Trichologist</h5>
                   <h5>&Laser expert</h5>
                   <ul>
-                  <li> - Ex-Consultant Kaya Skin Clinic </li>
-                  <li>,Mumbai</li>
-                  
-                  <li> - Ex-Consultant Tinplate Hospital,Jamshedpur</li>
-                  <li> - Presently Chief Consultant</li>
-                  <li>-Dr.kumar skin& Laser Clinic ,Jamshedpur</li>
+                    <li> - Ex-Consultant Kaya Skin Clinic </li>
+                    <li>,Mumbai</li>
+
+                    <li> - Ex-Consultant Tinplate Hospital,Jamshedpur</li>
+                    <li> - Presently Chief Consultant</li>
+                    <li>-Dr.kumar skin& Laser Clinic ,Jamshedpur</li>
                     <li>- Rosacea</li>
                     <li>- Skin cancer management </li>
                     <li>- Acne</li>
@@ -293,29 +294,12 @@ const Theteam = () => {
              */}
           </ul>
         </div>
-        <div className="the-team-cards">
-          <h3>Meet Our Management Team</h3>
+
+        {/* <div className="the-team-cards">
+          <h3>Meet Our Pathologist  Team</h3>
           <ul class="cards-new">
-            <li class="cards_item">
-              <div class="card_new">
-                <div class="card_image">
-                  <img
-                   src="./img1/rajesh.jpeg"
-                    style={{ height: "300px", width: "300px" }}
-                  />
-                </div>
-                <div class="card_content">
-                  <h2 class="card_title">Rajesh Kumar</h2>
-                  <h5>Dermatologist </h5>
-                  <ul>
-                    <li>- Rosacea</li>
-                    <li>- Skin cancer management </li>
-                    <li>- Acne</li>
-                    <li>- Skin rejuvenation</li>
-                  </ul>
-                </div>
-              </div>
-            </li>
+
+
             <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
@@ -336,7 +320,75 @@ const Theteam = () => {
                 </div>
               </div>
             </li>
-            {/* <li class="cards_item">
+
+
+
+
+           
+          </ul>
+        </div> */}
+
+        <div className="the-team-cards">
+          <h3>Meet Our Pathologist  Team</h3>
+
+          <ul class="cards-new card_items">
+            <li class="cards_item ">
+              <div class="card_new">
+                <div class="card_image">
+
+                  <img
+                    src="./img1/sumit.jpeg"
+                    style={{ height: "300px", width: "310px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Dr Sumit Kumar</h2>
+                  <h5>Pathologist </h5>
+                  <ul>
+                    <li>- Rosacea</li>
+                    <li>- Skin cancer management </li>
+                    <li>- Acne</li>
+                    <li>- Skin rejuvenation</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
+        <div className="the-team-cards">
+          <h3>Meet Our Management Team</h3>
+
+          <ul class="cards-new card_items">
+            <li class="cards_item ">
+              <div class="card_new">
+                <div class="card_image">
+
+                  <img
+                    src="./img1/rajesh.jpeg"
+                    style={{ height: "300px", width: "310px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Rajesh Kumar</h2>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        {/* <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
                   <img
@@ -356,7 +408,7 @@ const Theteam = () => {
                 </div>
               </div>
             </li> */}
-            {/* <li class="cards_item">
+        {/* <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
                   <img
@@ -376,8 +428,7 @@ const Theteam = () => {
                 </div>
               </div>
             </li> */}
-          </ul>
-        </div>
+
         {/* <div className="the-team-cards">
           <h3>Latest News</h3>
           <ul class="cards-new">
