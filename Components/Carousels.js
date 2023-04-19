@@ -29,7 +29,7 @@ const Carousels = () => {
     <>
       <Carousel responsive={responsive} infinite={true} className="carousel">
         {/* <div><Card/></div> */}
-        <div className="carousel-image">
+        {/* <div className="carousel-image">
           <li class="cards_item" id="carousel-item" style={{ height: "85% " }}>
             <div class="card_new" id="card_new">
               <div class="card_image">
@@ -49,7 +49,7 @@ const Carousels = () => {
               </div>
             </div>
           </li>
-        </div>
+        </div> */}
         <div className="carousel-image">
           <li class="cards_item" id="carousel-item">
             <div class="card_new">

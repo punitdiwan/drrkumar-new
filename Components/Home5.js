@@ -5,7 +5,7 @@ import { FaRegWindowMinimize } from "react-icons/fa";
 const Home5 = () => {
   return (
     <>
-      <div className="home-5">
+      {/* <div className="home-5">
         <img src="./images/Skin-rejuvenation-treatment-Cutis-Dermatology.jpg" />
         <div className="card-5">
           <h1>Facial rejuvenation</h1>
@@ -41,7 +41,7 @@ const Home5 = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -31,13 +31,10 @@ const Theteam = () => {
           <h3>Meet Our Doctors</h3>
 
           <ul class="cards-new card_items">
-            <li class="cards_item ">
+            {/* <li class="cards_item ">
               <div class="card_new">
                 <div class="card_image">
-                  {/* <img
-                    src="./images/the-team-card.webp"
-                    style={{ height: "300px", width: "300px" }}
-                  /> */}
+
                   <img
                     src="./img1/v2.jpeg"
                     style={{ height: "400px", width: "400px" }}
@@ -61,7 +58,33 @@ const Theteam = () => {
                   </ul>
                 </div>
               </div>
-            </li>
+            </li> */}
+
+
+            <div className="the-clinic-two2">
+              <div className="the-clinic-card-1">
+                <h5>
+                  <h2 class="card_title">Dr Raju Kumar</h2>
+                </h5>
+
+                <h5>Conultant - Dermatologist ,Trichologist</h5>
+                <h5>&Laser expert</h5>
+                <ul>
+                  <li>- He completed his MBBS in 2005 from SKMC muzaffarpur College, Bihar </li>
+                  <li> - Ex-Consultant Kaya Skin Clinic </li>
+                  <li>,Mumbai</li>
+
+                  <li> - Ex-Consultant Tinplate Hospital,Jamshedpur</li>
+                  <li> - Presently Chief Consultant</li>
+
+                  <li>-DVD -Dermatologist - Skin Specialist</li>
+                  <li>-Dr.R.Kumar DVD in Dermatology .</li>
+                  <li>- he is a renowned skin specialist and a cosmetologist in jamshedpur ,Jharkhand </li>
+                </ul>
+
+              </div>
+              <img src="./img1/v2.jpeg" />
+            </div>
             {/* <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
@@ -123,6 +146,8 @@ const Theteam = () => {
               </div>
             </li> */}
           </ul>
+
+
         </div>
         <div className="the-team-cards">
           <h3>Meet Our Skin Therapist</h3>
@@ -231,6 +256,142 @@ const Theteam = () => {
                 </div>
               </div>
             </li>
+            {/* <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./img1/t6.jpeg"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Bhumi </h2>
+                  
+                </div>
+              </div>
+            </li> */}
+            {/* <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./img1/t7.jpeg"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Kajal</h2>
+                  
+                </div>
+              </div>
+            </li> */}
+            {/* <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./img1/t8.jpeg"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Rajesh Kumar </h2>
+                  <h5>Dermatologist </h5>
+                  <ul>
+                    <li>- Rosacea</li>
+                    <li>- Skin cancer management </li>
+                    <li>- Acne</li>
+                    <li>- Skin rejuvenation</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+             */}
+          </ul>
+          <ul class="cards-new" style={{ alignItems: "center" }}>
+            {/* <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./images/the-team-card.webp"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                  <img
+                    src="./img1/t1.jpeg"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Chandresh Kumar Naresh</h2>
+                  <h5>Dermatologist </h5>
+                  <ul>
+                    <li>- Rosacea</li>
+                    <li>- Skin cancer management </li>
+                    <li>- Acne</li>
+                    <li>- Skin rejuvenation</li>
+                  </ul>
+                </div>
+              </div>
+            </li> */}
+            {/* <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./img1/t2.jpeg"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Sumeet Kumar</h2>
+                  <h5>Dermatologist </h5>
+                  <ul>
+                    <li>- Rosacea</li>
+                    <li>- Skin cancer management </li>
+                    <li>- Acne</li>
+                    <li>- Skin rejuvenation</li>
+                  </ul>
+                </div>
+              </div>
+            </li> */}
+            {/* <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./img1/t3.jpeg"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Sheetal </h2>
+                  
+                </div>
+              </div>
+            </li> */}
+            {/* <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./img1/t4.jpeg"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Priyanka </h2>
+                  
+                </div>
+              </div>
+            </li> */}
+            {/* <li class="cards_item">
+              <div class="card_new">
+                <div class="card_image">
+                  <img
+                    src="./img1/t5.jpeg"
+                    style={{ height: "300px", width: "300px" }}
+                  />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Varsha</h2>
+                </div>
+              </div>
+            </li> */}
             <li class="cards_item">
               <div class="card_new">
                 <div class="card_image">
@@ -241,13 +402,6 @@ const Theteam = () => {
                 </div>
                 <div class="card_content">
                   <h2 class="card_title">Bhumi </h2>
-                  {/* <h5>Dermatologist </h5>
-                  <ul>
-                    <li>- Rosacea</li>
-                    <li>- Skin cancer management </li>
-                    <li>- Acne</li>
-                    <li>- Skin rejuvenation</li>
-                  </ul> */}
                 </div>
               </div>
             </li>
@@ -261,13 +415,6 @@ const Theteam = () => {
                 </div>
                 <div class="card_content">
                   <h2 class="card_title">Kajal</h2>
-                  {/* <h5>Dermatologist </h5>
-                  <ul>
-                    <li>- Rosacea</li>
-                    <li>- Skin cancer management </li>
-                    <li>- Acne</li>
-                    <li>- Skin rejuvenation</li>
-                  </ul> */}
                 </div>
               </div>
             </li>
@@ -293,6 +440,7 @@ const Theteam = () => {
             </li>
              */}
           </ul>
+
         </div>
 
         {/* <div className="the-team-cards">
@@ -342,8 +490,7 @@ const Theteam = () => {
                   />
                 </div>
                 <div class="card_content">
-                  <h2 class="card_title">Dr Sumit Kumar</h2>
-                  <h5>Pathologist </h5>
+                  <h2 class="card_title">Sumit Kumar</h2>
 
                 </div>
               </div>
