@@ -1120,10 +1120,12 @@ figcaption {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  
 }
 
 .card_image {
   height: fit-content;
+
 }
 
 .card_image img {
@@ -1272,6 +1274,7 @@ figcaption {
 }
 
 .cards-new-1 {
+  
   height: fit-content;
   width: 80%;
   display: flex;

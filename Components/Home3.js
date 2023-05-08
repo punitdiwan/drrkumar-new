@@ -16,6 +16,7 @@ const Home3 = () => {
             all aspects of skin treatments; from skin & hair disorders to the
             very latest in laser technology.
           </p> */}
+           
 
           <div className="btn-div">
             <Link  href='/Beforeafter'className="btn-2">VIEW RESULTS</Link>

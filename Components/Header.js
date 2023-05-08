@@ -397,6 +397,9 @@ const Header = () => {
             </ul>
           </li>
           <li>
+            <Link href="/Certificates">Certificates</Link>
+          </li>
+          <li>
             <Link href="/Beforeafter">Before & After</Link>
           </li>
           <li>
