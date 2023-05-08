@@ -11,8 +11,8 @@ const Home1 = () => {
           <img src="./img1/home.jpeg" />
         </div>
         <div className="card">
-          <h4 style={{ color: "#0066b2" }}>DR KUMAR SKIN  AND LASER   CLINIC</h4>
-          <h6 className="light-bold">
+          <h2 style={{ color: "#0066b2" }}>DR KUMAR SKIN  AND LASER   CLINIC</h2>
+          <h6 className="light-bold-1">
             Healthy, beautiful skin makes the best first impression
           </h6>
           <p className="light-size">

@@ -15,12 +15,12 @@ const Aboutus = () => {
           {/* <img src="./images/The-clinic-2.jpg" /> */}
           <img src="./img1/clinic.jpeg" />
           <div className="the-clinic-card-1">
-            <h5>
+            <h1 style={{color:"#0066b2"}}>
               DR. KUMAR SKIN & LASER CLINIC
-            </h5>
-            <p>
+            </h1><br/>
+            <p><b>
               Dr kumar Skin Clinic in jamshedpur  is fully equipped with FDA approved laser machine and other machines offering international standards in dermatology and cosmetology treatments like laser hair removal treatment, skin whitening, acne/ scar removal, pimple treatment, pigmentation, PRP Hair loss treatment, Skin rejuvenation, and stretch marks, mole removal, and tattoo removal.
-            </p>
+            </b></p>
 
           </div>
         </div>

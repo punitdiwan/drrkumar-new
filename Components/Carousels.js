@@ -50,10 +50,10 @@ const Carousels = () => {
             </div>
           </li>
         </div> */}
-        <div className="carousel-image">
+        {/*<div className="carousel-image">
           <li class="cards_item" id="carousel-item">
             <div class="card_new">
-              <div class="card_image">
+               <div class="card_image">
                 <img
                   src="./images/Eye-rejuvenation.jpg"
                   style={{ height: "300px", width: "fit-content" }}
@@ -71,9 +71,9 @@ const Carousels = () => {
                   energy-based devices.
                 </p>
               </div>
-            </div>
+            </div> 
           </li>
-        </div>
+        </div>*/}
         <div className="carousel-image">
           <li class="cards_item" id="carousel-item">
             <div class="card_new">

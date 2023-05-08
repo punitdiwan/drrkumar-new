@@ -180,8 +180,13 @@
 .light-bold {
   font-size: x-large;
   font-weight: bold;
+  color: #0066b2;
 }
-
+.light-bold-1 {
+  font-size: x-large;
+  font-weight: bold;
+  
+}
 .light-size {
   line-height: 1.5rem;
   color: grey;
@@ -845,6 +850,7 @@ li {
   flex-direction: column;
   gap: 1rem;
   color: grey;
+
 }
 
 .the-visit-1>h4 {
