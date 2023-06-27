@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import Accordion from "../Components/Accordion";
 import Form from "../Components/Form";
+import Link from "next/link";
 
 const thevisit = () => {
   return (
@@ -13,6 +14,184 @@ const thevisit = () => {
           <h1>The Visit</h1>
         </div>
 
+
+
+        <div className='main'>
+      <ul class="cards-new-1">
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media.jpg" />
+              <h1>Acne Scars</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/AcneScars">Acne Scars</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media1.jpg" />
+              <h1>Acne Treatments</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/AcneTreatments">Acne Treatments</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media2.jpg" />
+              <h1>Anti-Wrinkle</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/AntiWrinkle">Anti-Wrinkle</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media3.jpg" />
+              <h1>Birth Marks</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/BirthMarks">Birth Marks</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media4.jpg" />
+              <h1>Cool Sculpting</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/CoolSculpting">Cool Sculpting</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media5.jpg" />
+              <h1>Dermal Filler</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/DermalFiller">Dermal Filler</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media6.jpg" />
+              <h1>Eye Rejuvanation</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/EyeRejuvanation">Eye Rejuvanation</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media7.jpg" />
+              <h1>Hair Loss</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/HairLoss">Hair Loss</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media8.jpg" />
+              <h1>Laser Resurfacing </h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/LaserResurfacing">Laser Resurfacing</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media9.jpg" />
+              <h1>Main Gallery</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/MainGallery">Main Gallery</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media10.jpg"  />
+              <h1>Melasma + Pigmentation</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/Melasma">Melasma + Pigmentation</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media11.jpg" />
+              <h1>Psoriasis</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/Psoriasis">Psoriasis</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media12.jpg" />
+              <h1>Rosacea</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/Rosacea">Rosacea</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media13.jpg" />
+              <h1>Scars</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/Scars">Scars</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media14.jpg" />
+              <h1>Skin Cancer</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/SkinCancer">Skin Cancer</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media15.jpg" />
+              <h1>Acne Maintenance</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/AcneMaintenance">Acne Maintenance</Link>
+          </div>
+        </li>
+        <li class="cards_item-1">
+          <div class="card_new-1">
+            <div class="card_image">
+              <img src="./images/media16.jpg" />
+              <h1>Skin Tightening</h1>
+            </div>
+            <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/SkinTightening">Skin Tightening</Link>
+          </div>
+        </li>
+      </ul>
+      </div>
+
+{/* 
         <div className="the-clinic-two" id="the-visit-two">
           <img src="./images/new-image.jpeg" />
           <div className="the-clinic-card-1">
@@ -79,9 +258,9 @@ const thevisit = () => {
               providing the best results possible for your skin.
             </p>
           </div>
-          {/* <img src="./images/the-visit-last.jpg" /> */}
+          <img src="./images/the-visit-last.jpg" />
           <img src="./img1/v2.jpeg" />
-        </div>
+        </div> */}
         {/* <Accordion /> */}
         <Form />
         {/* <div className="the-team-cards">

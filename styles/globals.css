@@ -803,9 +803,9 @@ iframe {
   width: 100%;
 }
 
-li {
+/* li {
   list-style: none;
-}
+} */
 
 .the-team-card-main>img {
   height: 36vh;

@@ -350,7 +350,7 @@ const Header = () => {
                 <Link href="">Neck, Chest and Dec Rejuvanation</Link>
               </li>
               <li>
-                <Link href="">Anti-Aging Treatments </Link>
+                <Link href="/antiaging">Anti-Aging Treatments </Link>
               </li>
               <li>
                 <Link href="">Anti-Wrinkles Treatments</Link>
@@ -392,7 +392,7 @@ const Header = () => {
                 <Link href="">Tattoo Removal</Link>
               </li>
               <li>
-                <Link href="">Stretch Marks treatments</Link>
+                <Link href="/microneedling">Microneedling</Link>
               </li>
             </ul>
           </li>
@@ -412,7 +412,7 @@ const Header = () => {
                 <Link href="/theteam">The Team</Link>
               </li>
               <li>
-                <Link href="/thevisit">The Visit</Link>
+                <Link href="/thevisit">Media Releases</Link>
               </li>
             </ul>
           </li>
