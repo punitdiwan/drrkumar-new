@@ -803,9 +803,9 @@ iframe {
   width: 100%;
 }
 
-li {
+/* li {
   list-style: none;
-}
+} */
 
 .the-team-card-main>img {
   height: 36vh;
@@ -1485,6 +1485,7 @@ figcaption {
 }
 
 @media only screen and (max-width: 992px) {
+
   .map-div {
     display: flex;
     flex-direction: column;
@@ -1813,6 +1814,13 @@ figcaption {
 }
 
 @media only screen and (max-width: 600px) {
+  #media-images{
+    display :flex;
+    flex-direction: column;
+    border:"2px solid red"
+  }
+
+
   .acne-glance-1>span:first-child {
     margin-right: 0;
   }

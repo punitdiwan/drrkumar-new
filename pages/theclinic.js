@@ -115,14 +115,15 @@ const Aboutus = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          <iframe
+          {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2186.6222628335527!2d86.21086015290585!3d22.82299626107004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x810ac4ce3a29a824!2zMjLCsDQ5JzIzLjQiTiA4NsKwMTInNDMuNCJF!5e0!3m2!1sen!2sin!4v1676707551267!5m2!1sen!2sin"
             height="300"
             style={{ border: "2px solid black", marginBottom: "3rem" }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+          ></iframe> */}
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5200.692704749851!2d86.2116861238568!3d22.823017225628934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e337075848f3%3A0x3dc4277a24940ee6!2sDr.kumar%20skin%20and%20laser%20clinic!5e0!3m2!1sen!2sin!4v1687946240071!5m2!1sen!2sin"  height="300" style={{ border: "2px solid black", marginBottom: "3rem" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <Footer />
       </section>

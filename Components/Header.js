@@ -55,276 +55,28 @@ const Header = () => {
                 <Link href="/Acnesolutionclinic"> Acne Solutions Clinic</Link>
               </li>
               <li>
-                <Link href="/Acnesolutionclinic"> Acne Treatments</Link>
-                <FaCaretRight />
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnecyst"> Acne Cyst </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnecyst"> Acne in children </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnecyst"> Acne in Pregnancy </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnecyst"> Avi Clear Laser </Link>
-                  </li>
-                </ul>
+                <Link href="/Allergy">Allergy</Link>
               </li>
               <li>
-                <Link href="/Acnesolutionclinic">
-                  Birth Mark Treatments
-                  <FaCaretRight />
-                </Link>
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnecyst"> Ota Birth Marks</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnecyst"> Port Wine Stain Treatments </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnecyst"> Syringoma Removal</Link>
-                  </li>
-                </ul>
+                <Link href="/Fungalinfection">Fungal infection</Link>
               </li>
               <li>
-                <Link href="/Childrenderma"> Children's Dermatology</Link>
+                <Link href="/Nailproblems">Nail problems</Link>
               </li>
               <li>
-                <Link href="/Acnesolutionclinic"> DVA Skin Checks</Link>
+                <Link href="/Acne">Acne</Link>
               </li>
               <li>
-                <Link href="/Acnesolutionclinic">
-                  Eczema Treatment
-                  <FaCaretRight />
-                </Link>
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnecyst">
-                      Skin Allergies & Patch Treatment
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnecyst"> Sensitive Skin Skincare </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnecyst">Perioral Dermatitis</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnecyst">Pityriasis Rosea</Link>
-                  </li>
-                </ul>
+                <Link href="/Newborn">New born condition</Link>
               </li>
               <li>
-                <Link href="/Acnesolutionclinic">
-                  Excessive Sweating
-                  <FaCaretRight />
-                </Link>
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Anti-Sweat Injections
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Antiperspirants</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">CBT</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">ETS Surgery</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Facial Sweating</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">MiraDry</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Tablets</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Surgical Producers</Link>
-                  </li>
-                </ul>
+                <Link href="/Psoriasis">Psoriasis</Link>
               </li>
               <li>
-                <Link href="/Acnesolutionclinic"> Female Dermatology</Link>
+                <Link href="/Hairproblems">Hair problems</Link>
               </li>
               <li>
-                <Link href="/Acnesolutionclinic">
-                  Genital Skn Rashes & Conditions in Men
-                </Link>
-              </li>
-              <li>
-                <Link href="/Acnesolutionclinic">
-                  Hair Loss In Men
-                  <FaCaretRight />
-                </Link>
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnesolutionclinic">Alopecia Areata</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Growth Factor Injections
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Laser Hair Restoration
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Male Pattern Hair Loss
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="/Acnesolutionclinic">
-                  Hair Loss In Women
-                  <FaCaretRight />
-                </Link>
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnesolutionclinic">Alopecia Areata</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Female Hair Loss</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Frontal Fibrosing Alopecia
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Lichen Planopilaris</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Telogen Effluvium</Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="/Acnesolutionclinic">
-                  Psoriasis Treatments
-                  <FaCaretRight />
-                </Link>
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnesolutionclinic">Creams for Psoriasis</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Guttate Psoriasis</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Psoriasis Diet</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Tablets for Psoriasis
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Vitamin A for Psoriasis
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Vitamin D for Psoriasis
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="/Acnesolutionclinic">
-                  Rosacea treatments
-                  <FaCaretRight />
-                </Link>
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnesolutionclinic">Rhinophyma Rosacea</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Rosacea Medications</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Rosacea Skin Rejuvanation
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Rosacea Tiggers & Skincare
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="/Acnesolutionclinic">
-                  Skin Cancer
-                  <FaCaretRight />
-                </Link>
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Bascal Cell Carcinoma Treatment
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Melonoma Skin Check</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Mole Removal</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Skincare Check</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Photodynamic Therapy - PDT
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Seborrheic Keratosis</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Squamous Cell Cancer Treatments
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="/Acnesolutionclinic">
-                  Sunspots
-                  <FaCaretRight />
-                </Link>
-                <ul className="dropdown1">
-                  <li>
-                    <Link href="/Acnesolutionclinic">
-                      Actinic Cheilitis Treatments
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Efudix Treatments</Link>
-                  </li>
-                  <li>
-                    <Link href="/Acnesolutionclinic">Fraxel for sun spots</Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="/Acnesolutionclinic">
-                  Vitiligo Treatment
-                  <FaCaretRight />
-                </Link>
+                <Link href="/pregnacyskin">pregnacy skin conditions</Link>
               </li>
             </ul>
           </li>
@@ -332,67 +84,50 @@ const Header = () => {
             <Link href="">Cosmetic Dermatology</Link>
             <ul className="dropdown">
               <li>
-                <Link href="">Acne Scar Treatment</Link>
+                <Link href="Acnescar">Acne Scar Treatment</Link>
               </li>
               <li>
                 <Link href="/Melasma">Melasma Treatments </Link>
               </li>
               <li>
-                <Link href="">Pigmentation</Link>
+                <Link href="/prp">PRP ( platelet rich plasma)</Link>
+              </li>
+              
+              <li>
+                <Link href="/keloid">keloid</Link>
               </li>
               <li>
-                <Link href="">Skin Tightening</Link>
+                <Link href="/laserhairremoval">Laser Hair Removal</Link>
               </li>
               <li>
-                <Link href=""> Eye Rejuvanation </Link>
+                <Link href="/Freckles"> Freckles/Lentigens </Link>
               </li>
               <li>
-                <Link href="">Neck, Chest and Dec Rejuvanation</Link>
+                <Link href="/Nevus">Nevus of otta</Link>
               </li>
               <li>
-                <Link href="">Anti-Aging Treatments </Link>
+                <Link href="/Antiaging">Anti-Aging Treatments </Link>
               </li>
               <li>
-                <Link href="">Anti-Wrinkles Treatments</Link>
+                <Link href="Toenails">Ingrown Toe Nails</Link>
               </li>
               <li>
-                <Link href="">Chemicals Peels</Link>
+                <Link href="Cyst">Cyst Removals</Link>
               </li>
               <li>
-                <Link href="">Dermal Filters</Link>
+                <Link href="Wart">Wart</Link>
               </li>
               <li>
-                <Link href="">Enlarged Pores</Link>
+                <Link href="Moles">Moles</Link>
               </li>
               <li>
-                <Link href="">Ehnic Skin Rewjuvanation</Link>
+                <Link href="Tattooremoval">Laser tatto removal</Link>
               </li>
               <li>
-                <Link href="">Fat Reduction</Link>
+                <Link href="Skintags">Skin tags</Link>
               </li>
               <li>
-                <Link href="">Lasers</Link>
-              </li>
-              <li>
-                <Link href="">Lip Wrinkles & Rejuvanation</Link>
-              </li>
-              <li>
-                <Link href="">Male Rejuvanation</Link>
-              </li>
-              <li>
-                <Link href="">Scar Removal</Link>
-              </li>
-              <li>
-                <Link href="">Skin Maintenance</Link>
-              </li>
-              <li>
-                <Link href="">Skin Care & Anti-Aging by age </Link>
-              </li>
-              <li>
-                <Link href="">Tattoo Removal</Link>
-              </li>
-              <li>
-                <Link href="">Stretch Marks treatments</Link>
+                <Link href="/microneedling">Microneedling</Link>
               </li>
             </ul>
           </li>
@@ -404,7 +139,7 @@ const Header = () => {
           </li>
           <li>
             <Link href="">About</Link>
-            <ul className="dropdown " id ="new-header">
+            <ul className="dropdown " id="new-header">
               <li>
                 <Link href="/theclinic">The Clinic</Link>
               </li>
@@ -412,7 +147,7 @@ const Header = () => {
                 <Link href="/theteam">The Team</Link>
               </li>
               <li>
-                <Link href="/thevisit">The Visit</Link>
+                <Link href="/Mediareleases">Media Releases</Link>
               </li>
             </ul>
           </li>
@@ -423,7 +158,7 @@ const Header = () => {
       </nav>
       <div ref={menuRef} className="responsive-nav">
         {/* <h4>DR. KUMAR SKIN & LASER CLINIC </h4> */}
-        <img src="./img1/logo.png"/>
+        <img src="./img1/logo.png" />
         <span onClick={() => setShow(!show)} className="bars">
           <FaBars />
         </span>
