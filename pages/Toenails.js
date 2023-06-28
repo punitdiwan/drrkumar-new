@@ -13,43 +13,31 @@ import {
   FaHeart,
 } from "react-icons/fa";
 
-const Microneedling = () => {
+const Toenails = () => {
   return (
     <>
       <section style={{fontSize:"12px"}}>
         <Header />
         <div className="about-header" id="the-visit-header">
-          <h1>Microneedling</h1>
+          <h1>Ingrown Toe Nails</h1>
         </div>
         <div className="" style={{ padding: "2rem" }}>
-          <h2>Microneedling</h2><br/>
-          <h4>What is microneddling ? How doe it work ?</h4>
+          <h2>Ingrown Toe Nails</h2><br/>
+          <h4>Ingrown Toenail and Surgery</h4>
           <p>
-            Micro needling involves causing multiple small injuries to the skin
-            using needles on a hand held roller, called Derma Roller, or by
-            using a more sophisticated automated equipment. This treatment can
-            also be conducted in combination with radio frequency.
-          </p>
-          <h4>What is the procedure like?</h4>
-          <p>The procedure is as follows:</p>
-          <li>A numbing cream is applied after cleaning the skin.</li>
-          <li>The needles are then rolled or stamped on the skin</li>
-          <li>Post that, the area is cleansed again or actives are applied.</li>
-          <p>You may experience a slight redness or swelling on your skin for a couple of days. But it will fade away.</p>
-          <h4>What can i get out of this ?</h4>
-          <p>Micro needling offers the following benefits:</p>
-          <li>It improves the texture of your skin and smoothens it.</li>
-          <li>It works great on acne scars, especially the pitted ones.</li>
-          <li>It stimulates collagen and is an economical yet effective anti-aging treatment that tightens skin and reduces facial lines and open pores.</li>
-          <li>It works well for oily, acne prone skin and stretch marks when combined with radio frequency .</li><br/>
-          <h4>What are the post treatmet care I need to know after treatment ?</h4>
-          <li>Make sure you wash your skin and keep it clean.</li>
-          <li>Ensure the pillowcase you use is fresh and clean.</li>
-          <li>Avoid dust and pets near your skin.</li>
-          <li>Two days after the treatment, use plenty of moisturiser and a simple sunscreen</li>
-          <li>Make up is ok but use only your fingertips for the application.</li>
-          <li>Please avoid creams like anti acne or anti-ageing for the next 2 days and nights.</li>
-          <li>You may experience a slight redness and possibly minimal swelling due to sensitivity to the procedure. It should resolve by itself and fade away within minutes to hours after the treatment. Please do not pick on your skin.</li>
+          An ingrown toenail is a common disorder that affects the big toe. It is always painful with swelling, redness and sometimes infection. Very often, the patient will have difficulty walking or sleeping because of pain
+                  </p>
+                  <h4>What is an Ingrown toenail?</h4>
+                  <p>An ingrown toenail is a common disorder that affects the big toe. It happens when the corners of the nail curves and digs into the soft flesh, hence; the name ingrown nail. It is always painful with swelling, redness and sometimes infection. Very often, the patient will have difficulty walking or sleeping because of pain.</p>
+                  <h4>What causes ingrown toenail?</h4>
+                  <p>Common causes of ingrown toenails are:</p>
+                  <li>Toenail trauma, such as stubbing your toe</li>
+                  <li>Wearing shoes that are too tight</li>
+                  <li>Cutting toenails too short</li>
+                  <li>Cutting toenails at an angle</li><br/>
+          <h4>How are they treated?</h4>
+          <p>Common treatments include antibiotic cream, oral antibiotic and pain relief medications. When medication is not enough to solve the problem, Dr R kumar will advise the patient to surgically remove part of the ingrown nail so that the skin or infection can heal. Performing surgery to destroy the matrix where the nail is being formed will also decrease the recurrence rate of ingrown toenail. People with diabetes, poor blood supply of the toes have higher risk of complications because ingrown toenail can lead to serious infections and the risk of losing a limb.</p>
+
           
         </div>
 
@@ -93,7 +81,6 @@ const Microneedling = () => {
                 </a>
               </span>
             </div>
-            {/* <Link style={{ color: "white", border: "2px solid", padding: '.5rem', textDecoration: "none", backgroundColor: "black", height: "2.5rem", margin: ".5rem 0" }} href="/Form">FOR BOOK APPOINTMENT</Link> */}
           </div>
 
           <div className="footer-2">
@@ -122,4 +109,4 @@ const Microneedling = () => {
   );
 };
 
-export default Microneedling;
+export default Toenails;

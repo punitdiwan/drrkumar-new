@@ -5,20 +5,53 @@ import Accordion from "../Components/Accordion";
 import Form from "../Components/Form";
 import Link from "next/link";
 
-const thevisit = () => {
+const Mediareleases = () => {
+
+
+
+  const images = [{src :"./images/media.jpg"},{src :"./images/media1.jpg"},{src :"./images/media2.jpg"},{src :"./images/media3.jpg"},{src :"./images/media4.jpg"},{src :"./images/media5.jpg"},{src :"./images/media6.jpg"},{src :"./images/media7.jpg"},{src :"./images/media8.jpg"},{src :"./images/media9.jpg"},{src :"./images/media10.jpg"},{src :"./images/media11.jpg"},{src :"./images/media12.jpg"},{src :"./images/media13.jpg"},{src :"./images/media14.jpg"},{src :"./images/media15.jpg"},{src :"./images/media16.jpg"},{src :"./images/media17.jpg"},{src :"./images/media18.jpg"},{src :"./images/media19.jpg"},{src :"./images/media20.jpg"},{src :"./images/media21.jpg"},{src :"./images/media22.jpg"},{src :"./images/media23.jpg"},{src :"./images/media24.jpg"},{src :"./images/media25.jpg"},{src :"./images/media26.jpg"},{src :"./images/media27.jpg"},{src :"./images/media28.jpg"},{src :"./images/media29.jpg"},{src :"./images/media30.jpg"},{src :"./images/media31.jpg"},{src :"./images/media32.jpg"},{src :"./images/media33.jpg"},{src :"./images/media34.jpg"},{src :"./images/media35.jpg"},{src :"./images/media36.jpg"}]
+
+
+
+
   return (
     <>
       <section>
         <Header />
         <div className="about-header" id="the-visit-header">
-          <h1>The Visit</h1>
+          <h1>Media Releases</h1>
         </div>
 
 
 
         <div className='main'>
-      <ul class="cards-new-1">
-        <li class="cards_item-1">
+          <ul className="cards-new-1">
+
+            {
+              images.map((item)=>{
+                return (<>
+                 <li className="cards_item-1">
+          <div className="card_new-1" id ="media-images">
+            <div class="card_image">
+              <img src={item.src} />
+              {/* <h1>Acne Scars</h1> */}
+            </div>
+            {/* <Link style={{textAlign: "center",textDecoration: "none",
+            margin:"5px", color:"black", border:"2px solid"}} href="/AcneScars">Acne Scars</Link> */}
+          </div>
+        </li>
+                </>)
+              })
+            }
+
+
+
+
+            
+
+
+
+        {/* <li class="cards_item-1">
           <div class="card_new-1">
             <div class="card_image">
               <img src="./images/media.jpg" />
@@ -187,7 +220,7 @@ const thevisit = () => {
             <Link style={{textAlign: "center",textDecoration: "none",
             margin:"5px", color:"black", border:"2px solid"}} href="/SkinTightening">Skin Tightening</Link>
           </div>
-        </li>
+        </li> */}
       </ul>
       </div>
 
@@ -335,4 +368,4 @@ const thevisit = () => {
   );
 };
 
-export default thevisit;
+export default Mediareleases;

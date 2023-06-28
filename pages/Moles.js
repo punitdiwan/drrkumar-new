@@ -13,43 +13,37 @@ import {
   FaHeart,
 } from "react-icons/fa";
 
-const Microneedling = () => {
+const Moles = () => {
   return (
     <>
       <section style={{fontSize:"12px"}}>
         <Header />
         <div className="about-header" id="the-visit-header">
-          <h1>Microneedling</h1>
+          <h1>Moles</h1>
         </div>
         <div className="" style={{ padding: "2rem" }}>
-          <h2>Microneedling</h2><br/>
-          <h4>What is microneddling ? How doe it work ?</h4>
+          <h2>Moles</h2><br/>
+          <h4>Moles</h4>
           <p>
-            Micro needling involves causing multiple small injuries to the skin
-            using needles on a hand held roller, called Derma Roller, or by
-            using a more sophisticated automated equipment. This treatment can
-            also be conducted in combination with radio frequency.
-          </p>
-          <h4>What is the procedure like?</h4>
-          <p>The procedure is as follows:</p>
-          <li>A numbing cream is applied after cleaning the skin.</li>
-          <li>The needles are then rolled or stamped on the skin</li>
-          <li>Post that, the area is cleansed again or actives are applied.</li>
-          <p>You may experience a slight redness or swelling on your skin for a couple of days. But it will fade away.</p>
-          <h4>What can i get out of this ?</h4>
-          <p>Micro needling offers the following benefits:</p>
-          <li>It improves the texture of your skin and smoothens it.</li>
-          <li>It works great on acne scars, especially the pitted ones.</li>
-          <li>It stimulates collagen and is an economical yet effective anti-aging treatment that tightens skin and reduces facial lines and open pores.</li>
-          <li>It works well for oily, acne prone skin and stretch marks when combined with radio frequency .</li><br/>
-          <h4>What are the post treatmet care I need to know after treatment ?</h4>
-          <li>Make sure you wash your skin and keep it clean.</li>
-          <li>Ensure the pillowcase you use is fresh and clean.</li>
-          <li>Avoid dust and pets near your skin.</li>
-          <li>Two days after the treatment, use plenty of moisturiser and a simple sunscreen</li>
-          <li>Make up is ok but use only your fingertips for the application.</li>
-          <li>Please avoid creams like anti acne or anti-ageing for the next 2 days and nights.</li>
-          <li>You may experience a slight redness and possibly minimal swelling due to sensitivity to the procedure. It should resolve by itself and fade away within minutes to hours after the treatment. Please do not pick on your skin.</li>
+          Moles can be round, oval, flat, or raised. They can occur singly or in clusters on any part of the body. Most moles are brown, but colors can range from pinkish flesh tones to yellow, dark blue, or black. They may be present at birth, but most appear later.
+                  </p>
+                  <h4>What cause Moles?</h4>
+                  <p>The exact reasons why moles develop are not fully understood at present. However, many types seem to run in families, particularly dysplastic naevi. The likelihood of having lots of moles also seems to be inherited. You are more likely to have moles if you spend lots of time in the sun, especially if you have done so since childhood. </p>
+                  <p>Moles can also appear because of changes in your hormones. This commonly occurs:</p>
+                  <li>during adolescence</li>
+                  <li>if you are taking the contraceptive pill</li>
+                  <li>during pregnancy</li>
+                  <li>during the menopause</li>
+                  <p>It's a good idea to check your moles regularly so that you are aware if any of them change shape or colour. You should see a dermatologist if you notice:</p>
+                  <li>growth of an existing mole</li>
+                  <li>a mole with a ragged/uneven edge</li>
+                  <li>a mole of varying shades of colour</li>
+                  <li>a mole that bleeds, oozes or crusts</li>
+                  <li>a mole that feels painful or itches</li>
+                  <li>a mole where the two halves don't look the same</li><br/>
+          <h4>How can I remove my Moles?</h4>
+          <p>Many people remove moles for cosmetic .For cosmetic reasons, smaller moles can easily be removed by electrosurgery or CO2 laser surgery. Electrosurgery uses radio-frequency instruments to burn the moles. Similarly, CO2 laser removes moles with high powered laser beams and burns them into vapour (aka vapourization). Dr R kumar default choice for mole removal is electrosurgery because it gives better precision and control and it is also more affordable. However, if you prefer laser removal, Dr kumar can do it too! Bigger moles are best removed by surgical excision. When a mole is atypical and cancerous looking, it is best to surgically excise the suspicious moles for laboratory analysis.</p>
+
           
         </div>
 
@@ -93,7 +87,6 @@ const Microneedling = () => {
                 </a>
               </span>
             </div>
-            {/* <Link style={{ color: "white", border: "2px solid", padding: '.5rem', textDecoration: "none", backgroundColor: "black", height: "2.5rem", margin: ".5rem 0" }} href="/Form">FOR BOOK APPOINTMENT</Link> */}
           </div>
 
           <div className="footer-2">
@@ -122,4 +115,4 @@ const Microneedling = () => {
   );
 };
 
-export default Microneedling;
+export default Moles;

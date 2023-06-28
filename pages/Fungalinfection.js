@@ -13,44 +13,41 @@ import {
   FaHeart,
 } from "react-icons/fa";
 
-const Microneedling = () => {
+const Fungalinfection = () => {
   return (
     <>
-      <section style={{fontSize:"12px"}}>
+      <section style={{ fontSize: "12px" }}>
         <Header />
         <div className="about-header" id="the-visit-header">
-          <h1>Microneedling</h1>
+          <h1>Fungal Infection</h1>
         </div>
         <div className="" style={{ padding: "2rem" }}>
-          <h2>Microneedling</h2><br/>
-          <h4>What is microneddling ? How doe it work ?</h4>
+          <h2>Fungal Infection</h2><br/>
+          <h4>Fungal Infection</h4>
           <p>
-            Micro needling involves causing multiple small injuries to the skin
-            using needles on a hand held roller, called Derma Roller, or by
-            using a more sophisticated automated equipment. This treatment can
-            also be conducted in combination with radio frequency.
+            Fungal Infections is most commonly caused by a type of fungus called
+            a dermophyte that infects the top layer of the skin, hair or nails.
+            Dermatophyte infection of the skin is known as ringworm (tinea).
           </p>
-          <h4>What is the procedure like?</h4>
-          <p>The procedure is as follows:</p>
-          <li>A numbing cream is applied after cleaning the skin.</li>
-          <li>The needles are then rolled or stamped on the skin</li>
-          <li>Post that, the area is cleansed again or actives are applied.</li>
-          <p>You may experience a slight redness or swelling on your skin for a couple of days. But it will fade away.</p>
-          <h4>What can i get out of this ?</h4>
-          <p>Micro needling offers the following benefits:</p>
-          <li>It improves the texture of your skin and smoothens it.</li>
-          <li>It works great on acne scars, especially the pitted ones.</li>
-          <li>It stimulates collagen and is an economical yet effective anti-aging treatment that tightens skin and reduces facial lines and open pores.</li>
-          <li>It works well for oily, acne prone skin and stretch marks when combined with radio frequency .</li><br/>
-          <h4>What are the post treatmet care I need to know after treatment ?</h4>
-          <li>Make sure you wash your skin and keep it clean.</li>
-          <li>Ensure the pillowcase you use is fresh and clean.</li>
-          <li>Avoid dust and pets near your skin.</li>
-          <li>Two days after the treatment, use plenty of moisturiser and a simple sunscreen</li>
-          <li>Make up is ok but use only your fingertips for the application.</li>
-          <li>Please avoid creams like anti acne or anti-ageing for the next 2 days and nights.</li>
-          <li>You may experience a slight redness and possibly minimal swelling due to sensitivity to the procedure. It should resolve by itself and fade away within minutes to hours after the treatment. Please do not pick on your skin.</li>
-          
+
+          <h4>There are many types of ringworm, including:</h4>
+          <li>Body Ringworm (Tinea Corporis)</li>
+          <li>Jock Itch (Tinea Cruris)</li>
+          <li>Athlete's Foot (Tinea Pedis)</li>
+          <li>Scalp Ringworm (Tinea Capitis)</li>
+          <li>Nail Ringworm (Tinea Unguium)</li>
+          <li>and Beard Ringworm (Tinea Barbae), Which is rare.</li>
+          <p>
+            Yeast, another type of fungus, can also cause fungal infections in
+            the form of white spots or brown spots known as tinea versicolor, or
+            redness and itching in the area around the vagina, in the groin and
+            under the breasts, particularly in people with diabetes.
+          </p>
+          <h4>What causes Fungal Infections?</h4>
+          <p>Fungal Infections such as ringworm are caused by types of fungi that like warm, moist areas of the skin, such as between the toes or fingers, in the groin, and on other parts of the body where there are folds of skin. Ringworm is not caused by a worm. The fungus can be carried by kittens and puppies, combs, brushes, pillows, hats, and towels, and is found in areas that are warm and moist, such as locker rooms and showers.
+Yeasts such as candida are commonly found on the skin and in the vagina where they are usually saprophytes (live peaceably without causing harm to the host) – in such cases, there is no need to treat the yeast. Sometimes, they can multiply and change to a form that causes itching and rashes – in such situations, treatment is warranted.
+Treatment of Fungal Infections
+Depending on the site and severity, fungal infections may be treated with anti-fungal creams or tablets. It is important to keep the affected area clean and dry, and to avoid scratching.</p>
         </div>
 
         <section className="footer">
@@ -74,7 +71,6 @@ const Microneedling = () => {
             </div>
             <div className="footer-child  footer1-child">
               <span>
-                
                 <a
                   href="https://www.facebook.com/drkumarskinandlaserclinic/"
                   target="_blank"
@@ -83,17 +79,14 @@ const Microneedling = () => {
                 </a>
               </span>
               <span>
-                
                 <FaYoutube />
               </span>
               <span>
-                
                 <a href="http://instagram.com/drrajurims" target="_blank">
                   <FaInstagram />
                 </a>
               </span>
             </div>
-            {/* <Link style={{ color: "white", border: "2px solid", padding: '.5rem', textDecoration: "none", backgroundColor: "black", height: "2.5rem", margin: ".5rem 0" }} href="/Form">FOR BOOK APPOINTMENT</Link> */}
           </div>
 
           <div className="footer-2">
@@ -122,4 +115,4 @@ const Microneedling = () => {
   );
 };
 
-export default Microneedling;
+export default Fungalinfection;

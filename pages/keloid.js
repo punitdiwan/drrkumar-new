@@ -13,43 +13,30 @@ import {
   FaHeart,
 } from "react-icons/fa";
 
-const Microneedling = () => {
+const keloid = () => {
   return (
     <>
       <section style={{fontSize:"12px"}}>
         <Header />
         <div className="about-header" id="the-visit-header">
-          <h1>Microneedling</h1>
+          <h1>Keloid</h1>
         </div>
         <div className="" style={{ padding: "2rem" }}>
-          <h2>Microneedling</h2><br/>
-          <h4>What is microneddling ? How doe it work ?</h4>
+          <h2>Keloid</h2>
+          <br />
+          <h4>What is a Keloid?</h4>
           <p>
-            Micro needling involves causing multiple small injuries to the skin
-            using needles on a hand held roller, called Derma Roller, or by
-            using a more sophisticated automated equipment. This treatment can
-            also be conducted in combination with radio frequency.
-          </p>
-          <h4>What is the procedure like?</h4>
-          <p>The procedure is as follows:</p>
-          <li>A numbing cream is applied after cleaning the skin.</li>
-          <li>The needles are then rolled or stamped on the skin</li>
-          <li>Post that, the area is cleansed again or actives are applied.</li>
-          <p>You may experience a slight redness or swelling on your skin for a couple of days. But it will fade away.</p>
-          <h4>What can i get out of this ?</h4>
-          <p>Micro needling offers the following benefits:</p>
-          <li>It improves the texture of your skin and smoothens it.</li>
-          <li>It works great on acne scars, especially the pitted ones.</li>
-          <li>It stimulates collagen and is an economical yet effective anti-aging treatment that tightens skin and reduces facial lines and open pores.</li>
-          <li>It works well for oily, acne prone skin and stretch marks when combined with radio frequency .</li><br/>
-          <h4>What are the post treatmet care I need to know after treatment ?</h4>
-          <li>Make sure you wash your skin and keep it clean.</li>
-          <li>Ensure the pillowcase you use is fresh and clean.</li>
-          <li>Avoid dust and pets near your skin.</li>
-          <li>Two days after the treatment, use plenty of moisturiser and a simple sunscreen</li>
-          <li>Make up is ok but use only your fingertips for the application.</li>
-          <li>Please avoid creams like anti acne or anti-ageing for the next 2 days and nights.</li>
-          <li>You may experience a slight redness and possibly minimal swelling due to sensitivity to the procedure. It should resolve by itself and fade away within minutes to hours after the treatment. Please do not pick on your skin.</li>
+          A keloid is a raised overgrowth of scar tissue that occurs at the site of a skin injury and grows beyond the area of initial injury. They occur where trauma, surgery, blisters, vaccinations, acne or body piercing have injured the skin. It usually has a smooth top and a pink, red or red-brown color. Keloids are irregularly shaped and tend to enlarge progressively. Unlike fresh raised scars, keloids do not subside over time.
+                  </p>
+                  <h4>Why do keloids occur?</h4>
+                  <p>People of Asian and African descent are more prone to keloid scars, so genetic factors are likely to be important. Individuals who already have keloid scars are more prone to further keloids, and should be cautious about unnecessary surgery and cosmetic procedures. Certain sites, such as chest, back, shoulders, jawline and ears are more prone to keloid scars. Wound infection also makes the scar more likely to become keloid. Use of silicone gel sheets or silicone gel after surgery or skin injury helps to reduce the chances of developing a keloid scar. </p>
+                  <h4>Can keloids be treated?</h4>
+                  <p>Keloid scars that are red and itchy, painful or sensitive to touch are the most satisfying to treat as the symptoms tend to resolve quickly with appropriate treatment. They may also soften and flatten with repeated treatments, but have a tendency to recur, especially in the young.</p>
+                  <h4>How are keloids treated?</h4>
+                  <p>There is no single treatment for keloids, and most treatments do not give completely satisfactory results. Two or more treatments may be combined for better results.
+For itchy or painful keloids, steroid injections into the scar provide good resolution of itch and /or pain, and may be sufficient to flatten smaller keloid scars. To debulk a large keloid, laser or surgical excision may be considered but requires follow up treatment to prevent recurrence of keloid at the surgical site. A useful combination that is clinically proven is laser therapy with steroid injections.
+If you decide to pursue removal treatment for a keloid scar, you will have the best results if you start treatment soon after the keloid appears.</p>
+                  
           
         </div>
 
@@ -93,7 +80,6 @@ const Microneedling = () => {
                 </a>
               </span>
             </div>
-            {/* <Link style={{ color: "white", border: "2px solid", padding: '.5rem', textDecoration: "none", backgroundColor: "black", height: "2.5rem", margin: ".5rem 0" }} href="/Form">FOR BOOK APPOINTMENT</Link> */}
           </div>
 
           <div className="footer-2">
@@ -122,4 +108,4 @@ const Microneedling = () => {
   );
 };
 
-export default Microneedling;
+export default keloid;

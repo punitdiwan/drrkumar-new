@@ -13,10 +13,10 @@ import {
   FaHeart,
 } from "react-icons/fa";
 
-const antiaging = () => {
+const Antiaging = () => {
   return (
     <>
-      <section>
+      <section style={{fontSize:"12px"}}>
         <Header />
         <div className="about-header" id="the-visit-header">
           <h1>Anti Aging Treatments</h1>
@@ -52,7 +52,7 @@ const antiaging = () => {
             keep in mind that we choose acids and the application process where
             downtime is minimum.
           </p>
-          <p>What is the procedure like ?</p>
+          <h4>What is the procedure like ?</h4>
           <li>We cleanse your skin.</li>
           <li>
             Then a gel/fluid is applied with an applicator and allowed to rest
@@ -62,8 +62,8 @@ const antiaging = () => {
           <li>
             Some peels are applied on your skin and you go home with them,
             letting them stay on for longer hours.
-          </li>
-          <p>What can i expect from peels ?</p>
+          </li><br/>
+          <h4>What can i expect from peels ?</h4><br/>
           <p>When used for the skin :</p>
           <li>Clear skin</li>
           <li>Glowing skin</li>
@@ -73,7 +73,7 @@ const antiaging = () => {
           <li>Reduction in tan</li>
           <li>Pigmentation gets lighter</li>
           <li>Lighter complexion</li>
-          <li>Collagen stimulation, etc.</li>
+          <li>Collagen stimulation, etc.</li><br/>
           <p>Some specific peels like:</p>
           <li>
             Salicylic acid, Mandelic acid, Black peel works wonders on active
@@ -81,16 +81,16 @@ const antiaging = () => {
           </li>
           <li>Yellow peel is great for post acne scars and tan removal</li>
           <li>Retinol peel diminishes stretch marks</li>
-          <li>Melas and claze peel work very well for pigmentation on skin.</li>
+          <li>Melas and claze peel work very well for pigmentation on skin.</li><br/>
           <p>When used on the scalp:</p>
           <li>Treats chronic dandruff and flaky scalp</li>
           <li>Treats oily scalp</li>
-          <li>Stimulates hair growth</li>
+          <li>Stimulates hair growth</li><br/>
           <p>When i do see the results? </p>
           <li>
             It depends on the peel – some results are visible instantly and some
             over a period of time after repeated sittings.
-          </li>
+          </li><br/>
           <p>
             What are thecpost treatment care and instruction that i need to know
             ?
@@ -200,4 +200,4 @@ const antiaging = () => {
   );
 };
 
-export default antiaging;
+export default Antiaging;

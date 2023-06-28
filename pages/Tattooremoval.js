@@ -13,43 +13,25 @@ import {
   FaHeart,
 } from "react-icons/fa";
 
-const Microneedling = () => {
+const Tattooremoval = () => {
   return (
     <>
       <section style={{fontSize:"12px"}}>
         <Header />
         <div className="about-header" id="the-visit-header">
-          <h1>Microneedling</h1>
+          <h1>Laser tatto removal</h1>
         </div>
         <div className="" style={{ padding: "2rem" }}>
-          <h2>Microneedling</h2><br/>
-          <h4>What is microneddling ? How doe it work ?</h4>
+          <h2>Laser tatto removal</h2><br/>
+          <h4>What is Laser Tattoo Removal?</h4>
           <p>
-            Micro needling involves causing multiple small injuries to the skin
-            using needles on a hand held roller, called Derma Roller, or by
-            using a more sophisticated automated equipment. This treatment can
-            also be conducted in combination with radio frequency.
-          </p>
-          <h4>What is the procedure like?</h4>
-          <p>The procedure is as follows:</p>
-          <li>A numbing cream is applied after cleaning the skin.</li>
-          <li>The needles are then rolled or stamped on the skin</li>
-          <li>Post that, the area is cleansed again or actives are applied.</li>
-          <p>You may experience a slight redness or swelling on your skin for a couple of days. But it will fade away.</p>
-          <h4>What can i get out of this ?</h4>
-          <p>Micro needling offers the following benefits:</p>
-          <li>It improves the texture of your skin and smoothens it.</li>
-          <li>It works great on acne scars, especially the pitted ones.</li>
-          <li>It stimulates collagen and is an economical yet effective anti-aging treatment that tightens skin and reduces facial lines and open pores.</li>
-          <li>It works well for oily, acne prone skin and stretch marks when combined with radio frequency .</li><br/>
-          <h4>What are the post treatmet care I need to know after treatment ?</h4>
-          <li>Make sure you wash your skin and keep it clean.</li>
-          <li>Ensure the pillowcase you use is fresh and clean.</li>
-          <li>Avoid dust and pets near your skin.</li>
-          <li>Two days after the treatment, use plenty of moisturiser and a simple sunscreen</li>
-          <li>Make up is ok but use only your fingertips for the application.</li>
-          <li>Please avoid creams like anti acne or anti-ageing for the next 2 days and nights.</li>
-          <li>You may experience a slight redness and possibly minimal swelling due to sensitivity to the procedure. It should resolve by itself and fade away within minutes to hours after the treatment. Please do not pick on your skin.</li>
+          One of the advances in tattoo treatment is to remove or lighten tattoos using a laser, e.g. Q-switch Nd-YAG laser. This Q-switch Nd-YAG laser delivers pulses of energy that are selectively absorbed by the tattoo pigment. The powerful laser beam breaks the tattoo pigment ink into tiny fragments, which are then cleared away by your body’s natural cleansing mechanism. Several sessions of treatment are required and the risk of scarring the skin is minimal. The treatment is painful and local anesthesia is usually given. InHowever, tattoos with green ink are more challenging and our clinic currently does not have the capability to remove green tattoos.
+                  </p>
+                  <h4>What should I do after the treatment?</h4>
+                  <p>An antibacterial ointment and dressing will be applied to the treated area and it should be kept clean. A shower can be taken the next day, although the treated area should not be scrubbed. You will see a lightening of your tattoo after each treatment as your body disposes of more fragments of pigment. The results vary from complete disappearance to partial lightening after the first try. Traumatic tattoos and the amateurish tattoos that are done less professionally have the best response and result. However, large and heavily pigmented tattoos done by professional tattoo artist are more challenging and require many treatments for optimal results. Occasionally, loss of pigmentation or whitening of the skin may occur. But normal skin tone should return within 6-12 months, following your last session of treatment. </p>
+                  <h4>How often do I need to repeat this treatment?</h4>
+                  <p>The tattoo removal may take a number of sessions depending on the type of ink and depth of the tattoo. On average, professional tattoos require 8-12 treatments, while amateur tattoos require 3-5 treatments. Treatments are all spaced approximately 4 weeks apart, to allow your body to remove the maximum amount of tattoo pigment.</p>
+                  
           
         </div>
 
@@ -93,7 +75,6 @@ const Microneedling = () => {
                 </a>
               </span>
             </div>
-            {/* <Link style={{ color: "white", border: "2px solid", padding: '.5rem', textDecoration: "none", backgroundColor: "black", height: "2.5rem", margin: ".5rem 0" }} href="/Form">FOR BOOK APPOINTMENT</Link> */}
           </div>
 
           <div className="footer-2">
@@ -122,4 +103,4 @@ const Microneedling = () => {
   );
 };
 
-export default Microneedling;
+export default Tattooremoval;
