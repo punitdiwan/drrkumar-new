@@ -51,8 +51,11 @@ const Header = () => {
           <li>
             <Link href="">Medical Dermatology</Link>
             <ul className="dropdown">
-              <li>
+              {/* <li>
                 <Link href="/Acnesolutionclinic"> Acne Solutions Clinic</Link>
+              </li> */}
+              <li>
+                <Link href="/Melasma">Melasma Treatments </Link>
               </li>
               <li>
                 <Link href="/Allergy">Allergy</Link>
@@ -86,9 +89,9 @@ const Header = () => {
               <li>
                 <Link href="Acnescar">Acne Scar Treatment</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/Melasma">Melasma Treatments </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/prp">PRP ( platelet rich plasma)</Link>
               </li>
