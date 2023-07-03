@@ -1460,6 +1460,9 @@ figcaption {
   display: flex;
   justify-content: space-around;
 }
+.treatment-new-image{
+  width : 30%;
+}
 
 /* ************* Media Query *********** */
 
@@ -1811,9 +1814,19 @@ figcaption {
     width: 40%;
     /* border: 2px solid red; */
   }
+  .treatment-new-image{
+    width : 50%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+
+
+  .treatment-new-image{
+    width : 100%;
+  }
+
+
   #media-images{
     display :flex;
     flex-direction: column;

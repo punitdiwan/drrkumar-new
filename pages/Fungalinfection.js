@@ -29,6 +29,7 @@ const Fungalinfection = () => {
             a dermophyte that infects the top layer of the skin, hair or nails.
             Dermatophyte infection of the skin is known as ringworm (tinea).
           </p>
+          <img src="./images/fungus.jpeg" height="200vh" className="treatment-new-image"/>
 
           <h4>There are many types of ringworm, including:</h4>
           <li>Body Ringworm (Tinea Corporis)</li>

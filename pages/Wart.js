@@ -27,6 +27,11 @@ const Wart = () => {
           <p>
           Warts are skin-colored growths, scaly and rough to the touch, but they can be also dark, flat, and smooth.  They are non-cancerous skin growths caused by a viral infection in the top layer of the skin. Viruses that cause warts are called Human Papillomavirus (HPV).
                   </p>
+                  <img
+            src="./images/wart.jpeg"
+            height="200vh"
+            className="treatment-new-image"
+          />
                   <h4>
 How many kinds of Warts are there?</h4>
                   <p>There are several kinds of warts including ; Common warts,Foot (Plantar) warts, Flat warts and Genital warts. They are most common on the hands, feet and face but they can grow almost anywhere in the body. They are infectious and some people are more susceptible to this infection than others. </p>

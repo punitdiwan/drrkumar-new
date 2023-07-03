@@ -16,7 +16,7 @@ import {
 const Antiaging = () => {
   return (
     <>
-      <section style={{fontSize:"12px"}}>
+      <section style={{ fontSize: "12px" }}>
         <Header />
         <div className="about-header" id="the-visit-header">
           <h1>Anti Aging Treatments</h1>
@@ -44,6 +44,11 @@ const Antiaging = () => {
             and wrinkles, tighten sagging skin and restore a luminous glow;
             empowering you to age gracefully and on your own terms.
           </p>
+          <img
+            src="./images/anti-aging.jpeg"
+            height="400vh"
+            className="treatment-new-image"
+          />
           <p>
             What is a peel and how does it works? A peel is an acid or
             combination of acids which have a great deal of benefits for your
@@ -62,8 +67,10 @@ const Antiaging = () => {
           <li>
             Some peels are applied on your skin and you go home with them,
             letting them stay on for longer hours.
-          </li><br/>
-          <h4>What can i expect from peels ?</h4><br/>
+          </li>
+          <br />
+          <h4>What can i expect from peels ?</h4>
+          <br />
           <p>When used for the skin :</p>
           <li>Clear skin</li>
           <li>Glowing skin</li>
@@ -73,7 +80,8 @@ const Antiaging = () => {
           <li>Reduction in tan</li>
           <li>Pigmentation gets lighter</li>
           <li>Lighter complexion</li>
-          <li>Collagen stimulation, etc.</li><br/>
+          <li>Collagen stimulation, etc.</li>
+          <br />
           <p>Some specific peels like:</p>
           <li>
             Salicylic acid, Mandelic acid, Black peel works wonders on active
@@ -81,16 +89,19 @@ const Antiaging = () => {
           </li>
           <li>Yellow peel is great for post acne scars and tan removal</li>
           <li>Retinol peel diminishes stretch marks</li>
-          <li>Melas and claze peel work very well for pigmentation on skin.</li><br/>
+          <li>Melas and claze peel work very well for pigmentation on skin.</li>
+          <br />
           <p>When used on the scalp:</p>
           <li>Treats chronic dandruff and flaky scalp</li>
           <li>Treats oily scalp</li>
-          <li>Stimulates hair growth</li><br/>
+          <li>Stimulates hair growth</li>
+          <br />
           <p>When i do see the results? </p>
           <li>
             It depends on the peel – some results are visible instantly and some
             over a period of time after repeated sittings.
-          </li><br/>
+          </li>
+          <br />
           <p>
             What are thecpost treatment care and instruction that i need to know
             ?

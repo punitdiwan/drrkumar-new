@@ -22,7 +22,8 @@ const Acne = () => {
           <h1>Acne</h1>
         </div>
         <div className="" style={{ padding: "2rem" }}>
-          <h2>Acne</h2><br/>
+          <h2>Acne</h2>
+          <br />
           <h4>What is acne?</h4>
           <p>
             Acne (or pimple) is an affliction of the oil glands of the skin.
@@ -33,6 +34,11 @@ const Acne = () => {
             commonly occurs on the face but can also appear on the back, chest,
             shoulders and neck
           </p>
+          <img
+            src="./images/acne-new.jpeg"
+            height="200vh"
+            className="treatment-new-image"
+          />
 
           <h4>How serious is acne?</h4>
           <p>
@@ -76,7 +82,8 @@ const Acne = () => {
           <li>
             Use of inappropriate cosmetics and creams, or the oral consumption
             of certain medications and hormones are other causes of pimples.
-          </li><br/>
+          </li>
+          <br />
           <h4>What else do I need to know about managing acne?</h4>
           <li>
             Do not squeeze or scratch pimples. Avoid facials, scrubs, masks and

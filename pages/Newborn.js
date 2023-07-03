@@ -30,6 +30,7 @@ const Newborn = () => {
             to allay anxiety, it is important to recognise some of the common
             skin conditions we see in toddlers and learn how to manage them.
           </p>
+          <img src="./images/new-born.jpeg" height="200vh" className="treatment-new-image" />
           <li>Diaper Rash</li>
           <p>
             Most Diaper Rashes occur because of skin irritation due to diapers

@@ -25,6 +25,11 @@ const Nevus = () => {
           <h2>Nevus of otta</h2>
           <p>
           Nevus of Ota is a birthmark typically occurring on one side of the face. Frequently, it affects the skin around the eyes, forehead, nose, and cheeks. Besides skin, it may also involve parts of the eye or mouth. It usually appears as blue-grey hyperpigmentation because there are many pigment cells found deep within the dermis of the skin. 40-50% of all cases of nevus of Ota are present at birth, while the rest typically develop during adolescence. Laser treatments are the most effective in treating nevus of Ota. These include QS Nd:YAG, ruby laser, and alexandrite laser and they must be repeated many times ( at least 5-6 times). Alternatively, people may opt to cover the hyperpigmentation with camouflaging creams, foundation, or concealer. Aside from their physical appearance, one has to be aware of the risk of glaucoma and malignant melanoma.</p>
+          <img
+            src="./images/nevus.jpeg"
+            height="300vh"
+            className="treatment-new-image"
+          />
          
           
         </div>

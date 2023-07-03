@@ -28,6 +28,7 @@ const Acnescar = () => {
             
           Every individual may develop severe acne, however, they may scar in a different way. Your acne scar depends on what type of acne you’ve had and for how long.
                   </p>
+                  <img src="./images/acne-scar.jpeg" height="200vh" className="treatment-new-image" />
                   <li>Ice Pick Scars</li>
                   <li>Rolling Scars</li>
                   <li>Boxcar Scars</li>

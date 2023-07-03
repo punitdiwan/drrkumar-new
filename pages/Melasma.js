@@ -17,8 +17,8 @@ const Melasma = () => {
       <div style={{ textAlign: "center" }}>
         <h1>Melasma</h1>
       </div>
-      <div className="main">
-        <ul class="cards-new-1">
+      {/* <div className="main">
+        <ul class="cards-new-1" style={{ zIndex: "-10" }}>
           <li class="cards_item-1">
             <div class="card_new-1">
               <div class="card_image">
@@ -41,7 +41,7 @@ const Melasma = () => {
             </div>
           </li>
         </ul>
-      </div>
+      </div> */}
 
       <div className="" style={{ padding: "2rem" }}>
         <h2>Melasma</h2>
@@ -50,6 +50,7 @@ const Melasma = () => {
           Melasma is a skin condition that causes patches and spots, usually on
           the face, which are darker than your natural skin tone.
         </p>
+        <img src="./images/melasma.jpeg" height="200vh" className="treatment-new-image"/>
         <h4>Melasma causes and risk </h4>
         {/* <h4>What is the procedure like?</h4> */}
         <p>
@@ -77,7 +78,8 @@ const Melasma = () => {
         <li>
           Genetics. Up to 50% of people with melasma report that close relatives
           also have the condition.
-        </li><br/>
+        </li>
+        <br />
         {/* <p>
           You may experience a slight redness or swelling on your skin for a
           couple of days. But it will fade away.
@@ -134,7 +136,8 @@ const Melasma = () => {
           treatment. Treatment options for melasma can include:
         </p>
 
-        <li>Hydroquinone</li><br/>
+        <li>Hydroquinone</li>
+        <br />
         <p>
           Doctors often use hydroquinone as the first line of treatment for
           melasma. Hydroquinone is available as a lotion, cream, or gel. It
@@ -142,30 +145,36 @@ const Melasma = () => {
           the hydroquinone product directly to the patches of skin that are
           discolored or uneven. Hydroquinone is available as a prescription.
         </p>
-        <li>Corticosteroids and tretinoin</li><br/>
+        <li>Corticosteroids and tretinoin</li>
+        <br />
         <p>
           Corticosteroids and tretinoin come in creams, lotions, or gels. Both
           corticosteroids and tretinoin can help lighten the color of the
           melasma patches.
         </p>
-        <li>Combined creams</li><br/>
-        <p>In some cases, a dermatologist may choose to prescribe combination creams that may contain hydroquinone, corticosteroids, and tretinoin in one. These are called triple creams.
-Additional topical medications
-In addition to or instead of other medicated creams, a dermatologist may also prescribe azelaic acid or kojic acid. These acids work to lighten the dark areas of skin.
-Medical procedures
-If topical medications do not work, a dermatologist may recommend procedures such as:</p>
-        <li>
-        microdermabrasion
-        </li>
+        <li>Combined creams</li>
+        <br />
+        <p>
+          In some cases, a dermatologist may choose to prescribe combination
+          creams that may contain hydroquinone, corticosteroids, and tretinoin
+          in one. These are called triple creams. Additional topical medications
+          In addition to or instead of other medicated creams, a dermatologist
+          may also prescribe azelaic acid or kojic acid. These acids work to
+          lighten the dark areas of skin. Medical procedures If topical
+          medications do not work, a dermatologist may recommend procedures such
+          as:
+        </p>
+        <li>microdermabrasion</li>
         <li>chemical peel</li>
-        <li>
-        laser treatment
-        </li>
-        <li>
-        light therapy
-        </li>
-        <li>dermabrasion</li><br/>
-        <p>Some of these treatment options have side effects or may cause additional skin problems. It is best to speak with a doctor or dermatologist about possible risks.</p>
+        <li>laser treatment</li>
+        <li>light therapy</li>
+        <li>dermabrasion</li>
+        <br />
+        <p>
+          Some of these treatment options have side effects or may cause
+          additional skin problems. It is best to speak with a doctor or
+          dermatologist about possible risks.
+        </p>
       </div>
 
       <section className="footer">
