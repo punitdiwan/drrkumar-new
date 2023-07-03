@@ -16,27 +16,48 @@ import {
 const Allergy = () => {
   return (
     <>
-      <section style={{fontSize:"12px"}}>
+      <section style={{ fontSize: "12px" }}>
         <Header />
         <div className="about-header" id="the-visit-header">
           <h1>Allergy</h1>
         </div>
         <div className="" style={{ padding: "2rem" }}>
-          <h2>Allergy</h2><br/>
+          <h2>Allergy</h2>
+          <br />
           <h4>Allergy</h4>
           <p>
-          An allergy is an exaggerated immune response or reaction to substances that are generally not harmful. The allergen may be taken in internally (e.g. food, drugs, airborne allergens), or may be from external contact (e.g. fragrance, rubber latex, bonesetter’s herbs) -- the rash that then develops is known as allergic contact dermatitis.
-                  </p>
-                  <h4>What causes allergies?</h4>
-                  <p>Both genetics and environmental factors play a role.
-In a person with allergies, the immune response is oversensitive. When it recognizes an allergen, it releases chemicals, such as histamines. This causes itching, swelling, mucus production, muscle spasms, hives, rashes, and other symptoms, which vary from person to person.
-Common allergens include pollen, mould, pet dander, and house dust mites. Food and drug allergies are common. Allergic skin reactions can also be caused by insect bites, fragrances, costume jewellery, cosmetics, and other substances.
-Treatment
-Most allergies can be easily treated with medication and avoidance. The best way to reduce symptoms is to try and avoid what causes your allergies in the first place. This is especially important for food and drug allergies. Allergy tests (e.g. patch test, blood tests) are available to help confirm some suspected allergies.
-There are several types of medications available to prevent and treat allergies. Your doctor will recommend suitable medications depend on the type and severity of your symptoms, your age, and overall health. </p>
-                  
-                  
-          
+            An allergy is an exaggerated immune response or reaction to
+            substances that are generally not harmful. The allergen may be taken
+            in internally (e.g. food, drugs, airborne allergens), or may be from
+            external contact (e.g. fragrance, rubber latex, bonesetter’s herbs)
+            -- the rash that then develops is known as allergic contact
+            dermatitis.
+          </p>
+          <img
+            src="./images/allergy.jpeg"
+            height="200vh"
+            className="treatment-new-image"
+          />
+          <h4>What causes allergies?</h4>
+          <p>
+            Both genetics and environmental factors play a role. In a person
+            with allergies, the immune response is oversensitive. When it
+            recognizes an allergen, it releases chemicals, such as histamines.
+            This causes itching, swelling, mucus production, muscle spasms,
+            hives, rashes, and other symptoms, which vary from person to person.
+            Common allergens include pollen, mould, pet dander, and house dust
+            mites. Food and drug allergies are common. Allergic skin reactions
+            can also be caused by insect bites, fragrances, costume jewellery,
+            cosmetics, and other substances. Treatment Most allergies can be
+            easily treated with medication and avoidance. The best way to reduce
+            symptoms is to try and avoid what causes your allergies in the first
+            place. This is especially important for food and drug allergies.
+            Allergy tests (e.g. patch test, blood tests) are available to help
+            confirm some suspected allergies. There are several types of
+            medications available to prevent and treat allergies. Your doctor
+            will recommend suitable medications depend on the type and severity
+            of your symptoms, your age, and overall health.{" "}
+          </p>
         </div>
 
         <section className="footer">
@@ -60,7 +81,6 @@ There are several types of medications available to prevent and treat allergies.
             </div>
             <div className="footer-child  footer1-child">
               <span>
-                
                 <a
                   href="https://www.facebook.com/drkumarskinandlaserclinic/"
                   target="_blank"
@@ -69,11 +89,9 @@ There are several types of medications available to prevent and treat allergies.
                 </a>
               </span>
               <span>
-                
                 <FaYoutube />
               </span>
               <span>
-                
                 <a href="http://instagram.com/drrajurims" target="_blank">
                   <FaInstagram />
                 </a>

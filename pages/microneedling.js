@@ -30,6 +30,11 @@ const Microneedling = () => {
             using a more sophisticated automated equipment. This treatment can
             also be conducted in combination with radio frequency.
           </p>
+          <img
+            src="./images/micro-needling.jpeg"
+            height="200vh"
+            className="treatment-new-image"
+          />
           <h4>What is the procedure like?</h4>
           <p>The procedure is as follows:</p>
           <li>A numbing cream is applied after cleaning the skin.</li>

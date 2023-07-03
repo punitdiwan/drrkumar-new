@@ -28,6 +28,11 @@ const keloid = () => {
           <p>
           A keloid is a raised overgrowth of scar tissue that occurs at the site of a skin injury and grows beyond the area of initial injury. They occur where trauma, surgery, blisters, vaccinations, acne or body piercing have injured the skin. It usually has a smooth top and a pink, red or red-brown color. Keloids are irregularly shaped and tend to enlarge progressively. Unlike fresh raised scars, keloids do not subside over time.
                   </p>
+                  <img
+            src="./images/keloid.jpeg"
+            height="200vh"
+            className="treatment-new-image"
+          />
                   <h4>Why do keloids occur?</h4>
                   <p>People of Asian and African descent are more prone to keloid scars, so genetic factors are likely to be important. Individuals who already have keloid scars are more prone to further keloids, and should be cautious about unnecessary surgery and cosmetic procedures. Certain sites, such as chest, back, shoulders, jawline and ears are more prone to keloid scars. Wound infection also makes the scar more likely to become keloid. Use of silicone gel sheets or silicone gel after surgery or skin injury helps to reduce the chances of developing a keloid scar. </p>
                   <h4>Can keloids be treated?</h4>

@@ -27,6 +27,11 @@ const Tattooremoval = () => {
           <p>
           One of the advances in tattoo treatment is to remove or lighten tattoos using a laser, e.g. Q-switch Nd-YAG laser. This Q-switch Nd-YAG laser delivers pulses of energy that are selectively absorbed by the tattoo pigment. The powerful laser beam breaks the tattoo pigment ink into tiny fragments, which are then cleared away by your body’s natural cleansing mechanism. Several sessions of treatment are required and the risk of scarring the skin is minimal. The treatment is painful and local anesthesia is usually given. InHowever, tattoos with green ink are more challenging and our clinic currently does not have the capability to remove green tattoos.
                   </p>
+                  <img
+            src="./images/laser-tattoo.jpeg"
+            height="200vh"
+            className="treatment-new-image"
+          />
                   <h4>What should I do after the treatment?</h4>
                   <p>An antibacterial ointment and dressing will be applied to the treated area and it should be kept clean. A shower can be taken the next day, although the treated area should not be scrubbed. You will see a lightening of your tattoo after each treatment as your body disposes of more fragments of pigment. The results vary from complete disappearance to partial lightening after the first try. Traumatic tattoos and the amateurish tattoos that are done less professionally have the best response and result. However, large and heavily pigmented tattoos done by professional tattoo artist are more challenging and require many treatments for optimal results. Occasionally, loss of pigmentation or whitening of the skin may occur. But normal skin tone should return within 6-12 months, following your last session of treatment. </p>
                   <h4>How often do I need to repeat this treatment?</h4>

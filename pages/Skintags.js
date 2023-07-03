@@ -28,6 +28,11 @@ const Skintags = () => {
           Skin tags (also known as acrochordons, cutaneous papilloma, cutaneous tag among other names) are small, benign growths that are attached to the underlying skin by a thin stalk. They are formed by a layer of fibre, blood vessels and collaged wrapped in a thin layer of epidermis. They are very common and generally occur after midlife, on overweight people and pregnant women. Both men and women are equally affected and a person can develop hundreds of skin tags during their lifetime.
 Skin tags can occur anywhere on the body, but are especially prone to developing around folds of skin, where skin rubs on skin (such as eyelids, neck, armpits, groin or underneath breasts) or areas of the body that frequently rubs against clothing (such as on the back, along hips and the back of the neck). Skin tags most often appear brownish or flesh-toned. They start of as small raised bumps, but grow larger with repeated friction on the area. Some skin tags fall off over time painlessly whilst others grow bigger until they burst under pressure.
                   </p>
+                  <img
+            src="./images/skin-tags.jpeg"
+            height="200vh"
+            className="treatment-new-image"
+          />
                   <h4>Causes of Skin Tags</h4>
                   <p>Skin tags are usually caused by friction – where skin rubs against itself or when skin rubs against clothing etc. Thus, skin tags are usually found on overweight people who have excess folds of skin or wear clothing that’s too tight causing chaffing on the skin surface. Hormone elevations such as during pregnancy can also cause formation of skin tags. Studies have also shown that people with type 2 diabetes and those with HPV (Human Papilloma Virus) are also more susceptible to skin tags. In people with Crohn’s disease can develop skin tags around the anal opening (perianal skin tags), while others may inherit predisposition to skin tags. </p>
                   <h4>Skin Tags vs Warts</h4>

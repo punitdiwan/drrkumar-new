@@ -22,7 +22,8 @@ const Nailproblems = () => {
           <h1>Nailproblems</h1>
         </div>
         <div className="" style={{ padding: "2rem" }}>
-          <h2>Nailproblems</h2><br/>
+          <h2>Nailproblems</h2>
+          <br />
           <h4>Nailproblems</h4>
           <p>
             Nail Problems affect people of all ages. Common causes of nail
@@ -35,6 +36,7 @@ const Nailproblems = () => {
             changes is melanoma, an aggressive form of skin cancer that may
             present as a black band in the nail.
           </p>
+          <img src="./images/nails.jpeg" height="200vh" className="treatment-new-image" />
 
           <h4>Some of the more common nail changes include:</h4>
           <li>Discolouration (yellow, brown, black, greenish-black)</li>
@@ -47,7 +49,8 @@ const Nailproblems = () => {
             Skin diseases of nail fold or nail bed affecting nail growth, e.g.
             rash, swelling, nodule, warts
           </li>
-          <li>Haematoma (blood/bruise) under nail</li><br/>
+          <li>Haematoma (blood/bruise) under nail</li>
+          <br />
           <h4>Treatment</h4>
           <p>
             Fingernail infections usually respond faster to treatment than

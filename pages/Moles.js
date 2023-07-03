@@ -27,6 +27,11 @@ const Moles = () => {
           <p>
           Moles can be round, oval, flat, or raised. They can occur singly or in clusters on any part of the body. Most moles are brown, but colors can range from pinkish flesh tones to yellow, dark blue, or black. They may be present at birth, but most appear later.
                   </p>
+                  <img
+            src="./images/mole.jpeg"
+            height="200vh"
+            className="treatment-new-image"
+          />
                   <h4>What cause Moles?</h4>
                   <p>The exact reasons why moles develop are not fully understood at present. However, many types seem to run in families, particularly dysplastic naevi. The likelihood of having lots of moles also seems to be inherited. You are more likely to have moles if you spend lots of time in the sun, especially if you have done so since childhood. </p>
                   <p>Moles can also appear because of changes in your hormones. This commonly occurs:</p>

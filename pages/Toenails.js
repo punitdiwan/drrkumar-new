@@ -16,29 +16,53 @@ import {
 const Toenails = () => {
   return (
     <>
-      <section style={{fontSize:"12px"}}>
+      <section style={{ fontSize: "12px" }}>
         <Header />
         <div className="about-header" id="the-visit-header">
           <h1>Ingrown Toe Nails</h1>
         </div>
         <div className="" style={{ padding: "2rem" }}>
-          <h2>Ingrown Toe Nails</h2><br/>
+          <h2>Ingrown Toe Nails</h2>
+          <br />
           <h4>Ingrown Toenail and Surgery</h4>
           <p>
-          An ingrown toenail is a common disorder that affects the big toe. It is always painful with swelling, redness and sometimes infection. Very often, the patient will have difficulty walking or sleeping because of pain
-                  </p>
-                  <h4>What is an Ingrown toenail?</h4>
-                  <p>An ingrown toenail is a common disorder that affects the big toe. It happens when the corners of the nail curves and digs into the soft flesh, hence; the name ingrown nail. It is always painful with swelling, redness and sometimes infection. Very often, the patient will have difficulty walking or sleeping because of pain.</p>
-                  <h4>What causes ingrown toenail?</h4>
-                  <p>Common causes of ingrown toenails are:</p>
-                  <li>Toenail trauma, such as stubbing your toe</li>
-                  <li>Wearing shoes that are too tight</li>
-                  <li>Cutting toenails too short</li>
-                  <li>Cutting toenails at an angle</li><br/>
+            An ingrown toenail is a common disorder that affects the big toe. It
+            is always painful with swelling, redness and sometimes infection.
+            Very often, the patient will have difficulty walking or sleeping
+            because of pain
+          </p>
+          <img
+            src="./images/toe-nail.jpeg"
+            height="300vh"
+            className="treatment-new-image"
+          />
+          <h4>What is an Ingrown toenail?</h4>
+          <p>
+            An ingrown toenail is a common disorder that affects the big toe. It
+            happens when the corners of the nail curves and digs into the soft
+            flesh, hence; the name ingrown nail. It is always painful with
+            swelling, redness and sometimes infection. Very often, the patient
+            will have difficulty walking or sleeping because of pain.
+          </p>
+          <h4>What causes ingrown toenail?</h4>
+          <p>Common causes of ingrown toenails are:</p>
+          <li>Toenail trauma, such as stubbing your toe</li>
+          <li>Wearing shoes that are too tight</li>
+          <li>Cutting toenails too short</li>
+          <li>Cutting toenails at an angle</li>
+          <br />
           <h4>How are they treated?</h4>
-          <p>Common treatments include antibiotic cream, oral antibiotic and pain relief medications. When medication is not enough to solve the problem, Dr R kumar will advise the patient to surgically remove part of the ingrown nail so that the skin or infection can heal. Performing surgery to destroy the matrix where the nail is being formed will also decrease the recurrence rate of ingrown toenail. People with diabetes, poor blood supply of the toes have higher risk of complications because ingrown toenail can lead to serious infections and the risk of losing a limb.</p>
-
-          
+          <p>
+            Common treatments include antibiotic cream, oral antibiotic and pain
+            relief medications. When medication is not enough to solve the
+            problem, Dr R kumar will advise the patient to surgically remove
+            part of the ingrown nail so that the skin or infection can heal.
+            Performing surgery to destroy the matrix where the nail is being
+            formed will also decrease the recurrence rate of ingrown toenail.
+            People with diabetes, poor blood supply of the toes have higher risk
+            of complications because ingrown toenail can lead to serious
+            infections and the risk of losing a limb.
+          </p>
         </div>
 
         <section className="footer">
@@ -62,7 +86,6 @@ const Toenails = () => {
             </div>
             <div className="footer-child  footer1-child">
               <span>
-                
                 <a
                   href="https://www.facebook.com/drkumarskinandlaserclinic/"
                   target="_blank"
@@ -71,11 +94,9 @@ const Toenails = () => {
                 </a>
               </span>
               <span>
-                
                 <FaYoutube />
               </span>
               <span>
-                
                 <a href="http://instagram.com/drrajurims" target="_blank">
                   <FaInstagram />
                 </a>

@@ -40,6 +40,7 @@ const pregnacyskin = () => {
             birth when the hormones and blood flow settle back to pre-pregnancy
             levels.
           </p>
+          <img src="./images/pregnancy.jpeg" height="200vh" className="treatment-new-image" />
           <p>Common Pregnancy Skin Conditions and How to Treat Them</p>
           <h4>Varicose and Spider Veins</h4>
           <p>

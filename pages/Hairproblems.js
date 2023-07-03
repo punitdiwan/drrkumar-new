@@ -41,6 +41,7 @@ const Hairproblems = () => {
             hairfall is normal or not, we first need to understand the normal
             hair cycle.
           </p>
+          <img src="./images/hair-loss.jpeg" height="200vh" className="treatment-new-image" />
           <p>Normal hair grows in cycles and goes through 3 stages:</p>
           <li>A growing phase (Anagen)</li>
           <li>A resting phase (Telogen)</li>
