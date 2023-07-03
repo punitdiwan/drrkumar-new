@@ -10,18 +10,17 @@ import Footer from "../Components/Footer";
 import Carousels from "../Components/Carousels";
 import Instacard from "../Components/Instacard";
 
-
 const index = () => {
   return (
     <>
       <Header />
       <Home1 />
       <Home2 />
-      <Home3 />
+      {/* <Home3 /> */}
       <Home4 />
       <Home5 />
       {/* <Summer /> */}
-      <Carousels />
+      {/* <Carousels /> */}
       {/* <Instacard/> */}
       <Footer />
     </>
