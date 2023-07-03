@@ -14,9 +14,9 @@ const Melasma = () => {
     <>
       <Header />
 
-      <div style={{ textAlign: "center" }}>
-        <h1>Melasma</h1>
-      </div>
+      <div className="about-header" id="the-visit-header">
+          <h1>Melasma</h1>
+        </div>
       {/* <div className="main">
         <ul class="cards-new-1" style={{ zIndex: "-10" }}>
           <li class="cards_item-1">

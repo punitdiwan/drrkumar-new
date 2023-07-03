@@ -8,13 +8,9 @@ import {
 import Link from "next/link";
 
 const Footer = () => {
-
-
-
   return (
     <>
-
-      <div className="form-div">
+      {/* <div className="form-div">
         <img src="./images/grlsimg.jpg" alt="" />
         <form autoComplete="off">
           <h2>Book Appointment</h2>
@@ -46,18 +42,17 @@ const Footer = () => {
 
             <input type="text" name="message" id="message" />
 
-            {/* <input type="radio" name="gender" value="male">  */}
-            {/* <input type="radio" name="gender" value="female">  */}
+            <input type="radio" name="gender" value="male">  
+            <input type="radio" name="gender" value="female"> 
 
 
 
           </label>
           <button className="form-btn">Submit</button>
         </form>
-      </div>
+      </div> */}
 
-
-      <section className="footer" >
+      <section className="footer" style={{ marginTop: "2rem" }}>
         <div className="footer-1">
           <img src="./img1/logo.png" />
           {/* <h1>DR. KUMAR SKIN & LASER CLINIC</h1> */}
@@ -75,11 +70,9 @@ const Footer = () => {
             <a>Contact us</a>
             <a>Disclaimer</a>
             <a>Privacy Policy</a>
-
-
           </div>
           <div className="footer-child  footer1-child">
-            <span >
+            <span>
               {" "}
               <a
                 href="https://www.facebook.com/drkumarskinandlaserclinic/"
@@ -102,9 +95,6 @@ const Footer = () => {
           {/* <Link style={{ color: "white", border: "2px solid", padding: '.5rem', textDecoration: "none", backgroundColor: "black", height: "2.5rem", margin: ".5rem 0" }} href="/Form">FOR BOOK APPOINTMENT</Link> */}
         </div>
 
-
-
-
         <div className="footer-2">
           <div className="policy" id="footer-policy">
             <div className="policy-row">
@@ -126,7 +116,6 @@ const Footer = () => {
           </div>
         </div>
       </section>
-
     </>
   );
 };

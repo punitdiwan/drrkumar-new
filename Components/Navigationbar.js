@@ -11,7 +11,7 @@ const Navigationbar = () => {
   return (
     <>
       <div className="navigation">
-        <ul>
+        <ul style={{ listStyle: "none" }}>
           <li>
             <Link href="/" className="nav_link1">
               Home
@@ -24,97 +24,31 @@ const Navigationbar = () => {
             {show1 ? (
               <ul className="dropdown-new">
                 <li>
-                  <Link href="/Acnesolutionclinic">Acne Solutions Clinic</Link>
+                  <Link href="/Melasma">Melasma Treatments </Link>
                 </li>
                 <li>
-                  <span onClick={() => setShow2(!show2)}>
-                    Acne Treatments <FaCaretDown />
-                  </span>
-                  {show2 ? (
-                    <ul className="dropdown-child">
-                      <li>
-                        <Link href="">Acne Cyst</Link>
-                      </li>
-                      <li>
-                        <Link href="">Acne in Children</Link>
-                      </li>
-                      <li>
-                        <Link href="">Acne in pregnancy</Link>
-                      </li>
-                    </ul>
-                  ) : (
-                    show2
-                  )}
+                  <Link href="/Allergy">Allergy</Link>
                 </li>
                 <li>
-                  <Link href="/Laparoscopic" className="nav_link1">
-                    Birth Mark Treatments
-                  </Link>
+                  <Link href="/Fungalinfection">Fungal infection</Link>
                 </li>
                 <li>
-                  <Link href="/Childrenderma" className="nav_link1">
-                    Children's Dermatology
-                  </Link>
+                  <Link href="/Nailproblems">Nail problems</Link>
                 </li>
                 <li>
-                  <Link href="/adenomyosis" className="nav_link1">
-                    DVA Skin Checks
-                  </Link>
+                  <Link href="/Acne">Acne</Link>
                 </li>
                 <li>
-                  <Link href="/hysterectomy" className="nav_link1">
-                    Eczema Treatment
-                  </Link>
+                  <Link href="/Newborn">New born condition</Link>
                 </li>
                 <li>
-                  <Link href="/vaginalcosmetic" className="nav_link1">
-                    Excessive Sweating
-                  </Link>
+                  <Link href="/Psoriasis">Psoriasis</Link>
                 </li>
                 <li>
-                  <Link href="/Infertility" className="nav_link1">
-                    Female Dermatology
-                  </Link>
+                  <Link href="/Hairproblems">Hair problems</Link>
                 </li>
                 <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Genital Skn Rashes & Conditions in Men
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Hair Loss in Men
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Hair Loss in Women
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Psoriasis Treatments
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Rosacea Treatments
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Skin Cancer
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Sunspots
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Vitiligo Treatments
-                  </Link>
+                  <Link href="/pregnacyskin">pregnacy skin conditions</Link>
                 </li>
               </ul>
             ) : (
@@ -128,74 +62,50 @@ const Navigationbar = () => {
             {show ? (
               <ul className="dropdown-new">
                 <li>
-                  <Link href="/obstetrics" className="nav_link1">
-                    Acne Scar Treatment
-                  </Link>
+                  <Link href="Acnescar">Acne Scar Treatment</Link>
+                </li>
+                {/* <li>
+                <Link href="/Melasma">Melasma Treatments </Link>
+              </li> */}
+                <li>
+                  <Link href="/prp">PRP ( platelet rich plasma)</Link>
+                </li>
+
+                <li>
+                  <Link href="/keloid">keloid</Link>
                 </li>
                 <li>
-                  <Link href="/gynaecology" className="nav_link1">
-                    Melasma Treatments
-                  </Link>
+                  <Link href="/laserhairremoval">Laser Hair Removal</Link>
                 </li>
                 <li>
-                  <Link href="/Laparoscopic" className="nav_link1">
-                    Pigmentation
-                  </Link>
+                  <Link href="/Freckles"> Freckles/Lentigens </Link>
                 </li>
                 <li>
-                  <Link href="/fibroids" className="nav_link1">
-                    Skin Tightening
-                  </Link>
+                  <Link href="/Nevus">Nevus of otta</Link>
                 </li>
                 <li>
-                  <Link href="/adenomyosis" className="nav_link1">
-                    Eye Rejuvanation
-                  </Link>
+                  <Link href="/Antiaging">Anti-Aging Treatments </Link>
                 </li>
                 <li>
-                  <Link href="/hysterectomy" className="nav_link1">
-                    Neck, Chest and Dec Rejuvanation
-                  </Link>
+                  <Link href="Toenails">Ingrown Toe Nails</Link>
                 </li>
                 <li>
-                  <Link href="/vaginalcosmetic" className="nav_link1">
-                    Anti-Aging Treatments
-                  </Link>
+                  <Link href="Cyst">Cyst Removals</Link>
                 </li>
                 <li>
-                  <Link href="/Infertility" className="nav_link1">
-                    Anti-Wrinkles Treatments
-                  </Link>
+                  <Link href="Wart">Wart</Link>
                 </li>
                 <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Chemicals Peels
-                  </Link>
+                  <Link href="Moles">Moles</Link>
                 </li>
                 <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Dermal Fillers
-                  </Link>
+                  <Link href="Tattooremoval">Laser tatto removal</Link>
                 </li>
                 <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Enlarged Pores
-                  </Link>
+                  <Link href="Skintags">Skin tags</Link>
                 </li>
                 <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Ethnic Skin Rejuvenation
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Fat Reduction
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/highrisk" className="nav_link1">
-                    Lasers
-                  </Link>
+                  <Link href="/microneedling">Microneedling</Link>
                 </li>
               </ul>
             ) : (
@@ -204,7 +114,7 @@ const Navigationbar = () => {
           </li>
           <li>
             <Link href="/Certificates" className="nav_link1">
-            Certificates
+              Certificates
             </Link>
           </li>
           <li>
@@ -225,8 +135,11 @@ const Navigationbar = () => {
                   <Link href="/theteam">The Team</Link>
                 </li>
                 <li>
-                  <Link href="/thevisit">The Visit</Link>
+                  <Link href="/Mediareleases">Media Releases</Link>
                 </li>
+                {/* <li>
+                  <Link href="/thevisit">The Visit</Link>
+                </li> */}
               </ul>
             ) : (
               show3
