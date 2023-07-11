@@ -70,16 +70,14 @@ const Contactus = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-
-          <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29427.329610004323!2d86.17057!3d22.787037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x42da1bca3784b692!2sDr%20R%20Kumar%20Adityapur%20Jamshedpur%20%2F%20Best%20Skin%20Specialist%20in%2C%20Jamshedpur!5e0!3m2!1sen!2sin!4v1675924900820!5m2!1sen!2sin"
-          // width="300" 
-          height="300" 
-          style={{ border: "2px solid black", marginBottom: "3rem" }} 
-          allowfullscreen="" 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.4408701795883!2d86.20954227414006!3d22.82317302374218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e337075848f3%3A0x3dc4277a24940ee6!2sDr.kumar%20skin%20and%20laser%20clinic!5e0!3m2!1sen!2sin!4v1689068578591!5m2!1sen!2sin" 
+ 
+             height="300" 
+            style={{ border: "2px solid black", marginBottom: "3rem" }} 
+            allowfullscreen="" 
+              loading="lazy" 
+           referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
         </div>  
         </div>
 <Footer />
