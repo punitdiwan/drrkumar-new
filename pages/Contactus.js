@@ -70,13 +70,15 @@ const Contactus = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2186.6222628335527!2d86.21086015290585!3d22.82299626107004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x810ac4ce3a29a824!2zMjLCsDQ5JzIzLjQiTiA4NsKwMTInNDMuNCJF!5e0!3m2!1sen!2sin!4v1676707551267!5m2!1sen!2sin"
-            height="300"
-            style={{ border: "2px solid black", marginBottom: "3rem" }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29427.329610004323!2d86.17057!3d22.787037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x42da1bca3784b692!2sDr%20R%20Kumar%20Adityapur%20Jamshedpur%20%2F%20Best%20Skin%20Specialist%20in%2C%20Jamshedpur!5e0!3m2!1sen!2sin!4v1675924900820!5m2!1sen!2sin"
+          // width="300" 
+          height="300" 
+          style={{ border: "2px solid black", marginBottom: "3rem" }} 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>  
         </div>
